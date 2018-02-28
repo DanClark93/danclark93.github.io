@@ -1,0 +1,746 @@
+[
+  {
+    "Year": 2014,
+    "Bookmaker": "Ladbrokes",
+    "Value": 1158.9,
+    "Category": "Overall Revenue"
+  },
+  {
+    "Year": 2014,
+    "Bookmaker": "Ladbrokes",
+    "Value": 125.4,
+    "Category": "Overall Profit"
+  },
+  {
+    "Year": 2014,
+    "Bookmaker": "Ladbrokes",
+    "Value": 215.1,
+    "Category": "Digital Revenue"
+  },
+  {
+    "Year": 2014,
+    "Bookmaker": "Ladbrokes",
+    "Value": 14,
+    "Category": "Digital Profit"
+  },
+  {
+    "Year": 2013,
+    "Bookmaker": "Ladbrokes",
+    "Value": 1111.2,
+    "Category": "Overall Revenue"
+  },
+  {
+    "Year": 2013,
+    "Bookmaker": "Ladbrokes",
+    "Value": 138.3,
+    "Category": "Overall Profit"
+  },
+  {
+    "Year": 2013,
+    "Bookmaker": "Ladbrokes",
+    "Value": 175,
+    "Category": "Digital Revenue"
+  },
+  {
+    "Year": 2013,
+    "Bookmaker": "Ladbrokes",
+    "Value": 8.2,
+    "Category": "Digital Profit"
+  },
+  {
+    "Year": 2012,
+    "Bookmaker": "Ladbrokes",
+    "Value": 739.5,
+    "Category": "Overall Revenue"
+  },
+  {
+    "Year": 2012,
+    "Bookmaker": "Ladbrokes",
+    "Value": 180.7,
+    "Category": "Overall Profit"
+  },
+  {
+    "Year": 2012,
+    "Bookmaker": "Ladbrokes",
+    "Value": 178.1,
+    "Category": "Digital Revenue"
+  },
+  {
+    "Year": 2012,
+    "Bookmaker": "Ladbrokes",
+    "Value": 31.8,
+    "Category": "Digital Profit"
+  },
+  {
+    "Year": 2011,
+    "Bookmaker": "Ladbrokes",
+    "Value": 980.3,
+    "Category": "Overall Revenue"
+  },
+  {
+    "Year": 2011,
+    "Bookmaker": "Ladbrokes",
+    "Value": 193.5,
+    "Category": "Overall Profit"
+  },
+  {
+    "Year": 2011,
+    "Bookmaker": "Ladbrokes",
+    "Value": 163.4,
+    "Category": "Digital Revenue"
+  },
+  {
+    "Year": 2011,
+    "Bookmaker": "Ladbrokes",
+    "Value": 55,
+    "Category": "Digital Profit"
+  },
+  {
+    "Year": 2010,
+    "Bookmaker": "Ladbrokes",
+    "Value": 976.6,
+    "Category": "Overall Revenue"
+  },
+  {
+    "Year": 2010,
+    "Bookmaker": "Ladbrokes",
+    "Value": 202.3,
+    "Category": "Overall Profit"
+  },
+  {
+    "Year": 2010,
+    "Bookmaker": "Ladbrokes",
+    "Value": 169.4,
+    "Category": "Digital Revenue"
+  },
+  {
+    "Year": 2010,
+    "Bookmaker": "Ladbrokes",
+    "Value": 62.7,
+    "Category": "Digital Profit"
+  },
+  {
+    "Year": 2016,
+    "Bookmaker": "William Hill",
+    "Value": 1603.8,
+    "Category": "Overall Revenue"
+  },
+  {
+    "Year": 2016,
+    "Bookmaker": "William Hill",
+    "Value": 225.6,
+    "Category": "Overall Profit"
+  },
+  {
+    "Year": 2016,
+    "Bookmaker": "William Hill",
+    "Value": 544.8,
+    "Category": "Digital Revenue"
+  },
+  {
+    "Year": 2016,
+    "Bookmaker": "William Hill",
+    "Value": 100.5,
+    "Category": "Digital Profit"
+  },
+  {
+    "Year": 2015,
+    "Bookmaker": "William Hill",
+    "Value": 1509.9,
+    "Category": "Overall Revenue"
+  },
+  {
+    "Year": 2015,
+    "Bookmaker": "William Hill",
+    "Value": 224.3,
+    "Category": "Overall Profit"
+  },
+  {
+    "Year": 2015,
+    "Bookmaker": "William Hill",
+    "Value": 563.1,
+    "Category": "Digital Revenue"
+  },
+  {
+    "Year": 2015,
+    "Bookmaker": "William Hill",
+    "Value": 125.3,
+    "Category": "Digital Profit"
+  },
+  {
+    "Year": 2014,
+    "Bookmaker": "William Hill",
+    "Value": 1609.3,
+    "Category": "Overall Revenue"
+  },
+  {
+    "Year": 2014,
+    "Bookmaker": "William Hill",
+    "Value": 206.3,
+    "Category": "Overall Profit"
+  },
+  {
+    "Year": 2014,
+    "Bookmaker": "William Hill",
+    "Value": 527.4,
+    "Category": "Digital Revenue"
+  },
+  {
+    "Year": 2014,
+    "Bookmaker": "William Hill",
+    "Value": 177.7,
+    "Category": "Digital Profit"
+  },
+  {
+    "Year": 2013,
+    "Bookmaker": "William Hill",
+    "Value": 1486.5,
+    "Category": "Overall Revenue"
+  },
+  {
+    "Year": 2013,
+    "Bookmaker": "William Hill",
+    "Value": 257,
+    "Category": "Overall Profit"
+  },
+  {
+    "Year": 2013,
+    "Bookmaker": "William Hill",
+    "Value": 446.3,
+    "Category": "Digital Revenue"
+  },
+  {
+    "Year": 2013,
+    "Bookmaker": "William Hill",
+    "Value": 147.8,
+    "Category": "Digital Profit"
+  },
+  {
+    "Year": 2012,
+    "Bookmaker": "William Hill",
+    "Value": 1276.9,
+    "Category": "Overall Revenue"
+  },
+  {
+    "Year": 2012,
+    "Bookmaker": "William Hill",
+    "Value": 277.7,
+    "Category": "Overall Profit"
+  },
+  {
+    "Year": 2012,
+    "Bookmaker": "William Hill",
+    "Value": 406.7,
+    "Category": "Digital Revenue"
+  },
+  {
+    "Year": 2012,
+    "Bookmaker": "William Hill",
+    "Value": 145.3,
+    "Category": "Digital Profit"
+  },
+  {
+    "Year": 2011,
+    "Bookmaker": "William Hill",
+    "Value": 1136.7,
+    "Category": "Overall Revenue"
+  },
+  {
+    "Year": 2011,
+    "Bookmaker": "William Hill",
+    "Value": 239.4,
+    "Category": "Overall Profit"
+  },
+  {
+    "Year": 2011,
+    "Bookmaker": "William Hill",
+    "Value": 321.3,
+    "Category": "Digital Revenue"
+  },
+  {
+    "Year": 2011,
+    "Bookmaker": "William Hill",
+    "Value": 106.8,
+    "Category": "Digital Profit"
+  },
+  {
+    "Year": 2010,
+    "Bookmaker": "William Hill",
+    "Value": 1017.8,
+    "Category": "Overall Revenue"
+  },
+  {
+    "Year": 2010,
+    "Bookmaker": "William Hill",
+    "Value": 193.3,
+    "Category": "Overall Profit"
+  },
+  {
+    "Year": 2010,
+    "Bookmaker": "William Hill",
+    "Value": 251.5,
+    "Category": "Digital Revenue"
+  },
+  {
+    "Year": 2010,
+    "Bookmaker": "William Hill",
+    "Value": 91.1,
+    "Category": "Digital Profit"
+  },
+  {
+    "Year": 2014,
+    "Bookmaker": "Coral Group",
+    "Value": 949.1,
+    "Category": "Overall Revenue"
+  },
+  {
+    "Year": 2014,
+    "Bookmaker": "Coral Group",
+    "Value": 59,
+    "Category": "Overall Profit"
+  },
+  {
+    "Year": 2014,
+    "Bookmaker": "Coral Group",
+    "Value": 182.6,
+    "Category": "Digital Revenue"
+  },
+  {
+    "Year": 2014,
+    "Bookmaker": "Coral Group",
+    "Value": 138.9,
+    "Category": "Digital Profit"
+  },
+  {
+    "Year": 2013,
+    "Bookmaker": "Coral Group",
+    "Value": 27.6,
+    "Category": "Overall Profit"
+  },
+  {
+    "Year": 2013,
+    "Bookmaker": "Coral Group",
+    "Value": 891.7,
+    "Category": "Overall Revenue"
+  },
+  {
+    "Year": 2013,
+    "Bookmaker": "Coral Group",
+    "Value": 123.6,
+    "Category": "Digital Revenue"
+  },
+  {
+    "Year": 2013,
+    "Bookmaker": "Coral Group",
+    "Value": 94.3,
+    "Category": "Digital Profit"
+  },
+  {
+    "Year": 2012,
+    "Bookmaker": "Coral Group",
+    "Value": 1189.5,
+    "Category": "Overall Revenue"
+  },
+  {
+    "Year": 2012,
+    "Bookmaker": "Coral Group",
+    "Value": 116,
+    "Category": "Overall Profit"
+  },
+  {
+    "Year": 2012,
+    "Bookmaker": "Coral Group",
+    "Value": 74,
+    "Category": "Digital Revenue"
+  },
+  {
+    "Year": 2012,
+    "Bookmaker": "Coral Group",
+    "Value": 26.3,
+    "Category": "Digital Profit"
+  },
+  {
+    "Year": 2011,
+    "Bookmaker": "Coral Group",
+    "Value": 1117,
+    "Category": "Overall Revenue"
+  },
+  {
+    "Year": 2011,
+    "Bookmaker": "Coral Group",
+    "Value": -397.9,
+    "Category": "Overall Profit"
+  },
+  {
+    "Year": 2011,
+    "Bookmaker": "Coral Group",
+    "Value": 42,
+    "Category": "Digital Revenue"
+  },
+  {
+    "Year": 2011,
+    "Bookmaker": "Coral Group",
+    "Value": -48.5,
+    "Category": "Digital Profit"
+  },
+  {
+    "Year": 2010,
+    "Bookmaker": "Coral Group",
+    "Value": 1168,
+    "Category": "Overall Revenue"
+  },
+  {
+    "Year": 2010,
+    "Bookmaker": "Coral Group",
+    "Value": 111.3,
+    "Category": "Overall Profit"
+  },
+  {
+    "Year": 2010,
+    "Bookmaker": "Coral Group",
+    "Value": 18,
+    "Category": "Digital Revenue"
+  },
+  {
+    "Year": 2010,
+    "Bookmaker": "Coral Group",
+    "Value": 3.2,
+    "Category": "Digital Profit"
+  },
+  {
+    "Year": 2016,
+    "Bookmaker": "Paddy Power Betfair",
+    "Value": "1551.00",
+    "Category": "Overall Revenue"
+  },
+  {
+    "Year": 2016,
+    "Bookmaker": "Paddy Power Betfair",
+    "Value": 330,
+    "Category": "Overall Profit"
+  },
+  {
+    "Year": 2016,
+    "Bookmaker": "Paddy Power Betfair",
+    "Value": 853,
+    "Category": "Digital Revenue"
+  },
+  {
+    "Year": 2016,
+    "Bookmaker": "Paddy Power Betfair",
+    "Value": 255,
+    "Category": "Digital Profit"
+  },
+  {
+    "Year": 2015,
+    "Bookmaker": "Paddy Power Betfair",
+    "Value": "1318.00",
+    "Category": "Overall Revenue"
+  },
+  {
+    "Year": 2015,
+    "Bookmaker": "Paddy Power Betfair",
+    "Value": 229,
+    "Category": "Overall Profit"
+  },
+  {
+    "Year": 2015,
+    "Bookmaker": "Paddy Power Betfair",
+    "Value": 748,
+    "Category": "Digital Revenue"
+  },
+  {
+    "Year": 2015,
+    "Bookmaker": "Paddy Power Betfair",
+    "Value": 191,
+    "Category": "Digital Profit"
+  },
+  {
+    "Year": 2014,
+    "Bookmaker": "Paddy Power",
+    "Value": 722.91,
+    "Category": "Overall Revenue"
+  },
+  {
+    "Year": 2014,
+    "Bookmaker": "Paddy Power",
+    "Value": 136.61,
+    "Category": "Overall Profit"
+  },
+  {
+    "Year": 2014,
+    "Bookmaker": "Paddy Power",
+    "Value": 453.46,
+    "Category": "Digital Revenue"
+  },
+  {
+    "Year": 2014,
+    "Bookmaker": "Paddy Power",
+    "Value": 103.32,
+    "Category": "Digital Profit"
+  },
+  {
+    "Year": 2013,
+    "Bookmaker": "Paddy Power",
+    "Value": 611.72,
+    "Category": "Overall Revenue"
+  },
+  {
+    "Year": 2013,
+    "Bookmaker": "Paddy Power",
+    "Value": 115.62,
+    "Category": "Overall Profit"
+  },
+  {
+    "Year": 2013,
+    "Bookmaker": "Paddy Power",
+    "Value": 387.04,
+    "Category": "Digital Revenue"
+  },
+  {
+    "Year": 2013,
+    "Bookmaker": "Paddy Power",
+    "Value": 88.64,
+    "Category": "Digital Profit"
+  },
+  {
+    "Year": 2012,
+    "Bookmaker": "Paddy Power",
+    "Value": 542.84,
+    "Category": "Overall Revenue"
+  },
+  {
+    "Year": 2012,
+    "Bookmaker": "Paddy Power",
+    "Value": 113.98,
+    "Category": "Overall Profit"
+  },
+  {
+    "Year": 2012,
+    "Bookmaker": "Paddy Power",
+    "Value": 335.38,
+    "Category": "Digital Revenue"
+  },
+  {
+    "Year": 2012,
+    "Bookmaker": "Paddy Power",
+    "Value": 83.64,
+    "Category": "Digital Profit"
+  },
+  {
+    "Year": 2011,
+    "Bookmaker": "Paddy Power",
+    "Value": 409.18,
+    "Category": "Overall Revenue"
+  },
+  {
+    "Year": 2011,
+    "Bookmaker": "Paddy Power",
+    "Value": 99.38,
+    "Category": "Overall Profit"
+  },
+  {
+    "Year": 2011,
+    "Bookmaker": "Paddy Power",
+    "Value": 241.9,
+    "Category": "Digital Revenue"
+  },
+  {
+    "Year": 2011,
+    "Bookmaker": "Paddy Power",
+    "Value": 77.74,
+    "Category": "Digital Profit"
+  },
+  {
+    "Year": 2010,
+    "Bookmaker": "Paddy Power",
+    "Value": 350.14,
+    "Category": "Overall Revenue"
+  },
+  {
+    "Year": 2010,
+    "Bookmaker": "Paddy Power",
+    "Value": 85.28,
+    "Category": "Overall Profit"
+  },
+  {
+    "Year": 2010,
+    "Bookmaker": "Paddy Power",
+    "Value": 192.7,
+    "Category": "Digital Revenue"
+  },
+  {
+    "Year": 2010,
+    "Bookmaker": "Paddy Power",
+    "Value": 61.5,
+    "Category": "Digital Profit"
+  },
+  {
+    "Year": 2014,
+    "Bookmaker": "Betfair",
+    "Value": 393.6,
+    "Category": "Overall Revenue"
+  },
+  {
+    "Year": 2014,
+    "Bookmaker": "Betfair",
+    "Value": 61.1,
+    "Category": "Overall Profit"
+  },
+  {
+    "Year": 2014,
+    "Bookmaker": "Betfair",
+    "Value": 182.5,
+    "Category": "Digital Revenue"
+  },
+  {
+    "Year": 2014,
+    "Bookmaker": "Betfair",
+    "Value": 41,
+    "Category": "Digital Profit"
+  },
+  {
+    "Year": 2013,
+    "Bookmaker": "Betfair",
+    "Value": 349,
+    "Category": "Overall Revenue"
+  },
+  {
+    "Year": 2013,
+    "Bookmaker": "Betfair",
+    "Value": 38,
+    "Category": "Overall Profit"
+  },
+  {
+    "Year": 2013,
+    "Bookmaker": "Betfair",
+    "Value": 140,
+    "Category": "Digital Revenue"
+  },
+  {
+    "Year": 2013,
+    "Bookmaker": "Betfair",
+    "Value": 34,
+    "Category": "Digital Profit"
+  },
+  {
+    "Year": 2012,
+    "Bookmaker": "Betfair",
+    "Value": 352.3,
+    "Category": "Overall Revenue"
+  },
+  {
+    "Year": 2012,
+    "Bookmaker": "Betfair",
+    "Value": 52.4,
+    "Category": "Overall Profit"
+  },
+  {
+    "Year": 2012,
+    "Bookmaker": "Betfair",
+    "Value": 98.9,
+    "Category": "Digital Revenue"
+  },
+  {
+    "Year": 2012,
+    "Bookmaker": "Betfair",
+    "Value": 26.1,
+    "Category": "Digital Profit"
+  },
+  {
+    "Year": 2011,
+    "Bookmaker": "Betfair",
+    "Value": 330,
+    "Category": "Overall Revenue"
+  },
+  {
+    "Year": 2011,
+    "Bookmaker": "Betfair",
+    "Value": 26.6,
+    "Category": "Overall Profit"
+  },
+  {
+    "Year": 2011,
+    "Bookmaker": "Betfair",
+    "Value": 67,
+    "Category": "Digital Revenue"
+  },
+  {
+    "Year": 2011,
+    "Bookmaker": "Betfair",
+    "Value": 18,
+    "Category": "Digital Profit"
+  },
+  {
+    "Year": 2010,
+    "Bookmaker": "Betfair",
+    "Value": 306,
+    "Category": "Overall Revenue"
+  },
+  {
+    "Year": 2010,
+    "Bookmaker": "Betfair",
+    "Value": 17.7,
+    "Category": "Overall Profit"
+  },
+  {
+    "Year": 2010,
+    "Bookmaker": "Betfair",
+    "Value": 41,
+    "Category": "Digital Revenue"
+  },
+  {
+    "Year": 2010,
+    "Bookmaker": "Betfair",
+    "Value": 5,
+    "Category": "Digital Profit"
+  },
+  {
+    "Year": 2016,
+    "Bookmaker": "Ladbrokes Coral Group",
+    "Value": 1507.9,
+    "Category": "Overall Revenue"
+  },
+  {
+    "Year": 2016,
+    "Bookmaker": "Ladbrokes Coral Group",
+    "Value": 121.2,
+    "Category": "Overall Profit"
+  },
+  {
+    "Year": 2016,
+    "Bookmaker": "Ladbrokes Coral Group",
+    "Value": 482,
+    "Category": "Digital Revenue"
+  },
+  {
+    "Year": 2016,
+    "Bookmaker": "Ladbrokes Coral Group",
+    "Value": 161,
+    "Category": "Digital Profit"
+  },
+  {
+    "Year": 2015,
+    "Bookmaker": "Ladbrokes Coral Group",
+    "Value": 1195.5,
+    "Category": "Overall Revenue"
+  },
+  {
+    "Year": 2015,
+    "Bookmaker": "Ladbrokes Coral Group",
+    "Value": 85.8,
+    "Category": "Overall Profit"
+  },
+  {
+    "Year": 2015,
+    "Bookmaker": "Ladbrokes Coral Group",
+    "Value": 397,
+    "Category": "Digital Revenue"
+  },
+  {
+    "Year": 2015,
+    "Bookmaker": "Ladbrokes Coral Group",
+    "Value": 101,
+    "Category": "Digital Profit"
+  }
+]
