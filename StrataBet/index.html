@@ -159,7 +159,7 @@
                   goals = goals + 1;
                 }
               })
-              var conversionRate = (coordinates.length / goals);
+              var conversionRate = (coordinates.length / goals).toFixed(2);
               $("h2").html(playerSelected + " - " + coordinates.length + " chances - " + goals + " goals ("+ conversionRate + "% conversion rate)");
             });
           });
