@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<header>
+  <link rel="stylesheet" href="main.css">
+  <title>Gambling Companies Finances</title>
+  <!-- load the d3.js library -->
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-annotation/1.13.0/d3-annotation.min.js"></script>
+</header>
+<body>
+
+    <div class="flex-grid">
+        <div class="col">
+          <h1>Overall Revenue</h1>
+        </div>
+    </div>
+    <div class="flex-grid">
+      <div class="col">
+        <select id="betting">
+          <option value="Overall Revenue">Overall Revenue</option>
+          <option value="Overall Profit">Overall Profit</option>
+          <option value="Digital Revenue">Digital Revenue</option>
+          <option value="Digital Profit">Digital Profit</option>
+        </select>
+      </div>
+    </div>
+    <div class="flex-grid">
+      <div class="col">
+        <div id="legendContainer" class="legendContainer">
+            <svg id="legend"></svg>
+        </div>
+      </div>
+    </div>
+    <div class="flex-grid">
+      <div class="third">
+        <div class="vis">
+        </div>
+      </div>
+      </div>
+    </div>
+    <script>
+        function filterJSON(json, key, value) {
+            var result = [];
+            json.forEach(function(val, idx, arr) {
+                if (val[key] == value) {
+
+                    result.push(val)
+                }
+            })
+            return result;
+        }
+
+        // Set the dimensions of the canvas / graph
+        var margin = {
+                top: 50,
+                right: 220,
+                bottom: 30,
+                left: 60
+            },
+            width = $(".vis").width() - margin.left - margin.right,
+            height = 550 - margin.top - margin.bottom;
+
+        // Set the ranges
+        var x = d3.scaleTime()
+            .rangeRound([0, width]);
+
+        var y = d3.scaleLinear()
+            .range([height, 0]);
+
+        // Define the line
+        var stateline = d3.line()
+            .x(function(d) {
+                return x(d.Year);
+            })
+            .y(function(d) {
+                return y(d.Value);
+            });
+
+        // Adds the svg canvas
+        var svg = d3.select(".vis")
+            .append("svg")
+            .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom)
+            .append("g")
+            .attr("transform",
+                "translate(" + margin.left + "," + margin.top + ")");
+        var data;
+        // Get the data
+        d3.json("data.json", function(error, json) {
+
+            json.forEach(function(d) {
+                d.Value = +d.Value;
+            });
+
+            d3.select('#betting')
+                .on("change", function() {
+                    var sect = document.getElementById("betting");
+                    var section = sect.options[sect.selectedIndex].value;
+
+                    data = filterJSON(json, 'Category', section);
+
+                    data.forEach(function(d) {
+                        d.Value = +d.Value;
+                        d.Year = +d.Year;
+                        d.active = true;
+                    });
+
+                    updateGraph(data);
+
+                    $("h1").html(section);
+                });
+
+            // generate initial graph
+            data = filterJSON(json, 'Category', 'Overall Revenue');
+
+            updateGraph(data);
+
+        });
+
+        var color = d3.scaleOrdinal().range(["#ED1B24", "#01143C", "#3958A8", "#000000", "#03503E", "#FFA902", "#DAA520"]);
+
+        function updateGraph(data) {
+
+            // Scale the range of the data
+            x.domain(d3.extent(data, function(d) {
+                return d.Year;
+            }));
+            y.domain([d3.min(data, function(d) {
+                return d.Value;
+            }), d3.max(data, function(d) {
+                return d.Value;
+            })]);
+
+            // Nest the entries by Bookmaker
+            dataNest = d3.nest()
+                .key(function(d) {
+                    return d.Bookmaker;
+                })
+                .entries(data);
+
+            var result = dataNest.filter(function(val, idx, arr) {
+
+               return $("." + val.key).attr("fill") != "#ccc"
+                // matching the data with selector status
+            })
+
+            var bookmaker = svg.selectAll(".line")
+                .data(result, function(d) {
+                    return d.key;
+                });
+
+            bookmaker.enter().append("path")
+                .attr("d", function(d){
+      				            return stateline(d.values)
+      			     })
+                .attr("class", "line")
+                .style("stroke", function(d, i) {
+                    return d.color = color(d.key);
+                })
+                .attr("id", function(d) {
+                    return 'tag' + d.key.replace(/\s+/g, '');
+                })
+
+            bookmaker.transition()
+                .style("stroke", function(d, i) {
+                    return d.color = color(d.key);
+                })
+                .attr("id", function(d) {
+                    return 'tag' + d.key.replace(/\s+/g, '');
+                }) // assign ID
+                .attr("d", function(d) {
+
+                    return stateline(d.values)
+                });
+
+            bookmaker.exit().remove();
+
+            var legend = d3.select("#legend")
+                .selectAll("text")
+                .data(dataNest, function(d) {
+                    return d.key;
+                });
+
+            //checkboxes
+            legend.enter().append("rect")
+                .attr("width", 10)
+                .attr("height", 10)
+                .attr("y", 30)
+                .attr("x", function(d, i) {
+                    return 0 + i * 130;
+                }) // spacing
+                .attr("fill", function(d) {
+
+                    return color(d.key);
+
+                })
+                .attr("class", function(d, i) {
+                    return "legendcheckbox " + d.key;
+                })
+                .on("click", function(d) {
+                    d.active = !d.active;
+
+                    d3.select(this).attr("fill", function(d) {
+                        if (d3.select(this).attr("fill") == "#ccc") {
+
+                            return color(d.key);
+                        } else {
+                            return "#ccc";
+                        }
+                    })
+
+                    var result = dataNest.filter(function(val, idx, arr) {
+                        return $("." + val.key).attr("fill") != "#ccc"
+                        // matching the data with selector status
+                    })
+
+                    // Hide or show the lines based on the ID
+                    svg.selectAll(".line").data(result, function(d) {
+                            return d.key
+                        })
+                        .enter()
+                        .append("path")
+                        .attr("class", "line")
+                        .style("stroke", function(d, i) {
+                            return d.color = color(d.key);
+                        })
+                        .attr("d", function(d) {
+                            return stateline(d.values);
+                        });
+
+                    svg.selectAll(".line").data(result, function(d) {
+
+                        return d.key
+                    }).exit().remove()
+
+                })
+
+            // Add the Legend text
+            legend.enter().append("text")
+                .attr("y", 40)
+                .attr("x", function(d, i) {
+                    return 15 + i * 130;
+                })
+                .attr("class", "legend")
+                .text(function(d) {
+                    return d.key;
+                });
+
+            legend.transition()
+                .style("fill", "#777");
+
+            legend.exit().remove();
+
+            svg.selectAll(".axis").remove();
+
+            var xAxis = d3.scaleTime()
+                .domain([new Date(2010, 0, 1),
+                        new Date(2016, 0, 1, 0)])
+                .rangeRound([0, width]);
+
+            // Add the X Axis
+            svg.append("g")
+                .attr("class", "x axis")
+                .attr("transform", "translate(0," + height + ")")
+                .call(d3.axisBottom(xAxis).tickFormat(d3.timeFormat("%Y")).ticks(d3.timeYear))
+                .append("text")
+                .attr("x", (width/2)+40)
+                .attr("y", 10)
+                .attr("dy", "0.71em")
+                .attr("fill", "#000")
+                .text("Year");
+
+
+            // Add the Y Axis
+            svg.append("g")
+                .attr("class", "y axis")
+                .call(d3.axisLeft(y).ticks(5))
+                .append("text")
+                .attr("transform", "rotate(-90)")
+                .attr("y", 6)
+                .attr("dy", "0.71em")
+                .attr("fill", "#000")
+                .text("£m");
+
+          svg.append("text")
+                .attr("transform",
+                "translate(" + (width/2) + " ," +
+                               (height + margin.top + 20) + ")")
+                               .style("text-anchor", "middle")
+                               .text("Date");
+
+          $('.annotation-group').remove();
+          //find paddy power betfair line for merge annotation
+          var paddyPowerBetfairLine = document.getElementById('tagPaddyPowerBetfair');
+          console.log(paddyPowerBetfairLine);
+          var paddyPowerBetfairLineLength = Math.floor(paddyPowerBetfairLine.getTotalLength());
+          var prcnt = (0*paddyPowerBetfairLineLength) / 100;
+          var pt = paddyPowerBetfairLine.getPointAtLength(prcnt);
+
+          //find ladbrokes coral group line for merge annotations
+          var ladbrokesCoralLine = document.getElementById('tagLadbrokesCoralGroup');
+          var ladbrokesCoralLineLength = Math.floor(ladbrokesCoralLine.getTotalLength());
+          var prcnt = (0*ladbrokesCoralLineLength) / 100;
+          var lt = ladbrokesCoralLine.getPointAtLength(prcnt);
+
+          //console.log(Math.round(pt.x));
+          const annotations = [
+            {
+              note: {
+                label: "Paddy Power - Betfair merge"
+              },
+              x: pt.x,
+              y: pt.y,
+              dy: 137,
+              dx: 162
+            },{
+              note: {
+                label: "Ladbrokes - Coral merge"
+              },
+              x: lt.x,
+              y: lt.y,
+              dy: 137,
+              dx: 162
+            }
+          ].map(function(d){ d.color = "#E8336D"; return d})
+
+        const makeAnnotations = d3.annotation()
+          .type(d3.annotationLabel)
+          .annotations(annotations)
+
+        svg.append("g")
+          .attr("class", "annotation-group")
+          .call(makeAnnotations)
+
+      };
+
+    </script>
+</body>
