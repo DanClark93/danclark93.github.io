@@ -58,7 +58,7 @@
     </div>
     <div class="flex-grid">
       <div class="col">
-        <svg height="100" width=650>
+        <svg height="75" width=650>
           <text x=0 y=35>Poor Chance</text>
           <circle cx=120 cy=30 r="3" stroke="black" fill="black"/>
             <circle cx=180 cy=30 r="6" stroke="black" fill="black"/>
@@ -72,7 +72,7 @@
     </div>
     <div class="flex-grid">
       <div class="col">
-        <svg height="100" width="500">
+        <svg height="75" width="500">
           <text x=0 y=35>Goal</text>
           <rect x=40 y=17.5 width=25 height=25 style="fill:#53f442" />
           <text x=80 y=35>Woodwork</text>
@@ -84,6 +84,11 @@
           <text x=410 y=35>Missed</text>
           <rect x=470 y=17.5 width=25 height=25 style="fill:#ed2f29" />
         </svg>
+      </div>
+    </div>
+    <div class="flex-grid">
+      <div class="col">
+        <h2></h2>
       </div>
     </div>
     <div class="flex-grid">
@@ -148,6 +153,14 @@
 
               });
               updateGraph(coordinates);
+              var goals = 0
+              coordinates.forEach(function(c){
+                if (c.outcome === "-"){
+                  goals = goals + 1;
+                }
+              })
+              var conversionRate = (coordinates.length / goals);
+              $("h2").html(playerSelected + " - " + coordinates.length + " chances - " + goals + " goals ("+ conversionRate + "% conversion rate)");
             });
           });
 
