@@ -7,6 +7,7 @@
   <script src="https://d3js.org/d3.v4.min.js"></script>
   <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-annotation/1.13.0/d3-annotation.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 </header>
 <body>
 
@@ -54,74 +55,257 @@
     <div class="flex-grid">
       <div class="two">
         <h3>Player 1</h3>
+        League:
+          <select id="league">
+            <option value="Please select">Please select</option>
+            <option value="Premier League">Premier League</option>
+            <option value="Championship">Championship</option>
+            <option value="Bundesliga">Bundesliga</option>
+          </select>
+        </br>
         Team:
         <select id="team">
-          <option value="Please select">Please select</option>
-          <option value="AFC Bournemouth">AFC Bournemouth</option>
-          <option value="Arsenal">Arsenal</option>
-          <option value="Brighton & Hove Albion">Brighton & Hove Albion</option>
-          <option value="Burnley">Burnley</option>
-          <option value="Chelsea">Chelsea</option>
-          <option value="Crystal Palace">Crystal Palace</option>
-          <option value="Everton">Everton</option>
-          <option value="Huddersfield Town">Huddersfield Town</option>
-          <option value="Leicester City">Leicester City</option>
-          <option value="Liverpool">Liverpool</option>
-          <option value="Manchester City">Manchester City</option>
-          <option value="Manchester United">Manchester United</option>
-          <option value="Newcastle United">Newcastle United</option>
-          <option value="Southampton">Southampton</option>
-          <option value="Stoke City">Stoke City</option>
-          <option value="Swansea City">Swansea City</option>
-          <option value="Tottenham Hotspur">Tottenham Hotspur</option>
-          <option value="Watford">Watford</option>
-          <option value="West Bromwich Albion">West Bromwich Albion</option>
-          <option value="West Ham United">West Ham United</option>
+
         </select>
       </br>
         Player:
         <select id="player">
         </select>
         <h2 id="playerHeading"></h2>
-        <div class="two area" id="area">
-        </div>
       </div>
       <div class="two">
         <h3>Player 2</h3>
+        League:
+          <select id="league2">
+            <option value="Please select">Please select</option>
+            <option value="Premier League">Premier League</option>
+            <option value="Championship">Championship</option>
+            <option value="Bundesliga">Bundesliga</option>
+          </select>
+        </br>
         Team:
         <select id="team2">
-          <option value="Please select">Please select</option>
-          <option value="AFC Bournemouth">AFC Bournemouth</option>
-          <option value="Arsenal">Arsenal</option>
-          <option value="Brighton & Hove Albion">Brighton & Hove Albion</option>
-          <option value="Burnley">Burnley</option>
-          <option value="Chelsea">Chelsea</option>
-          <option value="Crystal Palace">Crystal Palace</option>
-          <option value="Everton">Everton</option>
-          <option value="Huddersfield Town">Huddersfield Town</option>
-          <option value="Leicester City">Leicester City</option>
-          <option value="Liverpool">Liverpool</option>
-          <option value="Manchester City">Manchester City</option>
-          <option value="Manchester United">Manchester United</option>
-          <option value="Newcastle United">Newcastle United</option>
-          <option value="Southampton">Southampton</option>
-          <option value="Stoke City">Stoke City</option>
-          <option value="Swansea City">Swansea City</option>
-          <option value="Tottenham Hotspur">Tottenham Hotspur</option>
-          <option value="Watford">Watford</option>
-          <option value="West Bromwich Albion">West Bromwich Albion</option>
-          <option value="West Ham United">West Ham United</option>
         </select>
       </br>
         Player:
         <select id="player2">
         </select>
         <h2 id="player2Heading"></h2>
-        <div class="two area" id="area2">
-       </div>
      </div>
     </div>
+    <div class="flex-grid">
+      <div class="col">
+        <div class="switch">
+          <ul class="tg-list">
+            <li class="tg-list-item">
+              <input class="tgl tgl-light" id="cb1" type="checkbox"/>
+              <label class="tgl-btn" for="cb1"></label>
+            </li>
+          </div>
+      </div>
+    </div>
+    <div class="flex-grid">
+      <div class="col area" id="area">
+      </div>
+    </div>
     <script>
+    //disable toggle button
+    $(".switch").hide();
+
+    //function to check if toggle button needs to be displayed
+    function checkToggle(){
+      var player1 = document.getElementById("player");
+      var player1Selected = player.options[player.selectedIndex].value;
+      var player2 = document.getElementById("player2");
+      var player2Selected = player2.options[player2.selectedIndex].value;
+
+      if (player1Selected != "Please select" && player2Selected != "Please select"){
+        $(".switch").show();
+      } else {
+        $(".switch").hide();
+      }
+    }
+
+    //toggle
+    d3.select('#cb1')
+      .on("change", function() {
+        var toggle = $('#cb1:checked').val();
+        //console.log(toggle);
+
+        //if player 2 is selected, remove css class of 'dotHidden' and add to player1 and vice versa
+        if (toggle === "on"){
+          var inactive = document.querySelectorAll("circle.dotPlayer1");
+
+          inactive.forEach(function(circle){
+              circle.classList.add("dotHidden");
+          })
+
+          var active = document.querySelectorAll("circle.dotPlayer2");
+
+          active.forEach(function(circle){
+              circle.classList.remove("dotHidden");
+          })
+
+        } else {
+          var inactive = document.querySelectorAll("circle.dotPlayer2");
+
+          inactive.forEach(function(circle){
+              circle.classList.add("dotHidden");
+          })
+
+          var active = document.querySelectorAll("circle.dotPlayer1");
+
+          active.forEach(function(circle){
+              circle.classList.remove("dotHidden");
+          })
+        }
+    });
+    //teams
+    var premierLeague = ["AFC Bournemouth","Arsenal","Brighton & Hove Albion","Burnley","Chelsea","Crystal Palace","Everton","Huddersfield Town","Leicester City","Liverpool","Manchester City","Manchester United","Newcastle United","Southampton","Stoke City","Swansea City","Tottenham Hotspur","Watford","West Bromwich Albion","West Ham United"];
+    var championship = [
+      "Aston Villa",
+      "Barnsley",
+      "Birmingham City",
+      "Bolton Wanderers",
+      "Brentford",
+      "Bristol City",
+      "Burton Albion",
+      "Cardiff City",
+      "Derby County",
+      "Fulham",
+      "Hull City",
+      "Ipswich Town",
+      "Leeds United",
+      "Middlesbrough",
+      "Millwall",
+      "Norwich City",
+      "Nottingham Forest",
+      "Preston North End",
+      "Queens Park Rangers",
+      "Reading",
+      "Sheffield United",
+      "Sheffield Wednesday",
+      "Sunderland",
+      "Wolverhampton Wanderers"
+    ]
+    var bundesliga = [
+      "Augsburg",
+      "Bayer Leverkusen",
+      "Bayern Munchen",
+      "Borussia Dortmund",
+      "Borussia M'gladbach",
+      "Eintracht Frankfurt",
+      "Freiburg",
+      "Hamburger SV",
+      "Hannover 96",
+      "Hertha BSC",
+      "Hoffenheim",
+      "Koln",
+      "Mainz 05",
+      "RB Leipzig",
+      "Schalke 04",
+      "Stuttgart",
+      "Werder Bremen",
+      "Wolfsburg"
+    ]
+    //league 1
+    d3.select('#league')
+      .on("change", function() {
+        var league = document.getElementById("league");
+        var leagueSelected = league.options[league.selectedIndex].value;
+
+        var teamDropdown=$('#team');
+        teamDropdown.empty();
+        teamDropdown.append(
+          $('<option>', {
+            value: "Please select",
+            text: "Please select"
+          }, '</option>'))
+
+        var playerDropdown=$('#player');
+        playerDropdown.empty();
+        playerDropdown.append(
+          $('<option>', {
+            value: "Please select",
+            text: "Please select"
+          }, '</option>'))
+
+        if (leagueSelected === "Premier League"){
+          premierLeague.forEach(function(team){
+            teamDropdown.append(
+              $('<option>', {
+                value: team,
+                text: team,
+              }, '</option>'))
+          });
+        } else if (leagueSelected === "Championship"){
+          championship.forEach(function(team){
+            teamDropdown.append(
+              $('<option>', {
+                value: team,
+                text: team,
+              }, '</option>'))
+          });
+        } else if (leagueSelected === "Bundesliga"){
+          bundesliga.forEach(function(team){
+            teamDropdown.append(
+              $('<option>', {
+                value: team,
+                text: team,
+              }, '</option>'))
+           });
+        };
+      });
+
+      //league 1
+      d3.select('#league2')
+        .on("change", function() {
+          var league = document.getElementById("league2");
+          var leagueSelected = league.options[league.selectedIndex].value;
+
+          var teamDropdown=$('#team2');
+          teamDropdown.empty();
+          teamDropdown.append(
+            $('<option>', {
+              value: "Please select",
+              text: "Please select"
+            }, '</option>'))
+
+          var playerDropdown=$('#player2');
+          playerDropdown.empty();
+          playerDropdown.append(
+            $('<option>', {
+              value: "Please select",
+              text: "Please select"
+            }, '</option>'))
+
+          if (leagueSelected === "Premier League"){
+            premierLeague.forEach(function(team){
+              teamDropdown.append(
+                $('<option>', {
+                  value: team,
+                  text: team,
+                }, '</option>'))
+            });
+          } else if (leagueSelected === "Championship"){
+            championship.forEach(function(team){
+              teamDropdown.append(
+                $('<option>', {
+                  value: team,
+                  text: team,
+                }, '</option>'))
+            });
+          } else if (leagueSelected === "Bundesliga"){
+            bundesliga.forEach(function(team){
+              teamDropdown.append(
+                $('<option>', {
+                  value: team,
+                  text: team,
+                }, '</option>'))
+             });
+          };
+        });
+
       //team 1
       d3.select('#team')
           .on("change", function() {
@@ -202,8 +386,19 @@
 
             var player = document.getElementById("player");
             var playerSelected = player.options[player.selectedIndex].value;
+            var league = document.getElementById("league");
+            var leagueSelected = league.options[league.selectedIndex].value;
+            var chancesCSV
 
-            d3.csv('chances.csv', function(csv_data){
+            if (leagueSelected === "Premier League"){
+              chancesCSV = "chances.csv"
+            } else if (leagueSelected === "Championship"){
+              chancesCSV = "championship.csv"
+            } else if (leagueSelected === "Bundesliga"){
+              chancesCSV = "bundesliga.csv"
+            }
+
+            d3.csv(chancesCSV, function(csv_data){
               var chanceList = csv_data;
               var coordinates = [];
               chanceList.forEach(function(chance){
@@ -216,7 +411,7 @@
                 };
 
               });
-              updateGraph(coordinates, "area");
+              updateGraph(coordinates, "player1");
               var goals = 0
               coordinates.forEach(function(c){
                 if (c.outcome === "-"){
@@ -225,6 +420,7 @@
               })
               var conversionRate = ((goals/coordinates.length) * 100).toFixed(2);
               $("#playerHeading").html(playerSelected + " - " + coordinates.length + " chances - " + goals + " goals ("+ conversionRate + "% conversion rate)");
+              checkToggle();
             });
           });
 
@@ -234,8 +430,19 @@
 
           var player = document.getElementById("player2");
           var playerSelected = player.options[player.selectedIndex].value;
+          var league = document.getElementById("league2");
+          var leagueSelected = league.options[league.selectedIndex].value;
+          var chancesCSV
 
-          d3.csv('chances.csv', function(csv_data){
+          if (leagueSelected === "Premier League"){
+            chancesCSV = "chances.csv"
+          } else if (leagueSelected === "Championship"){
+            chancesCSV = "championship.csv"
+          } else if (leagueSelected === "Bundesliga"){
+            chancesCSV = "bundesliga.csv"
+          }
+
+          d3.csv(chancesCSV, function(csv_data){
             var chanceList = csv_data;
             var coordinates = [];
             chanceList.forEach(function(chance){
@@ -248,7 +455,7 @@
               };
 
             });
-            updateGraph(coordinates, "area2");
+            updateGraph(coordinates, "player2");
             var goals = 0
             coordinates.forEach(function(c){
               if (c.outcome === "-"){
@@ -257,6 +464,7 @@
             })
             var conversionRate = ((goals/coordinates.length) * 100).toFixed(2);
             $("#player2Heading").html(playerSelected + " - " + coordinates.length + " chances - " + goals + " goals ("+ conversionRate + "% conversion rate)");
+            checkToggle();
           });
         });
 
@@ -295,35 +503,10 @@
         .x(function(d){return x_scale(d.x);})
         .y(function(d){return y_scale(d.y);});
 
-    //area 1
+    //area
     var svg = d3.selectAll('#area')
         .append("svg")
         .attr("id", "area")
-        .attr("width", width)
-        .attr("height", height);
-
-    svg.append('path')
-        .attr('d', lineFunction(penaltyArea))
-        .attr("stroke", "black")
-        .attr("stroke-width", 2)
-        .attr("fill", "none");
-
-    svg.append('path')
-        .attr('d', lineFunction(sixYardArea))
-        .attr("stroke", "black")
-        .attr("stroke-width", 2)
-        .attr("fill", "none");
-
-    svg.append('g')
-          .attr('class', 'x axis');
-
-    svg.append('g')
-          .attr('class', 'y axis');
-
-    //area 2
-    var svg = d3.selectAll('#area2')
-        .append("svg")
-        .attr("id", "area2")
         .attr("width", width)
         .attr("height", height);
 
@@ -379,13 +562,8 @@
       }
     }
 
-    function updateGraph(coordinates, area){
-      //set which area
-      if (area === "area"){
-        svg = d3.selectAll("#area");
-      } else {
-        svg = d3.selectAll("#area2");
-      }
+    function updateGraph(coordinates, player){
+     svg = d3.selectAll("#area");
       // Add the tooltip container to the vis container
       // it's invisible and its position/contents are defined during mouseover
      var tooltip = d3.select(".area").append("div")
@@ -420,8 +598,13 @@
     };
 
     //console.log(coordinates);
-      var dots = svg.selectAll(".dot")
-            .data(coordinates);
+     if (player === "player1"){
+       var dots = svg.selectAll(".dotPlayer1")
+               .data(coordinates);
+    } else if (player === "player2"){
+      var dots = svg.selectAll(".dotPlayer2")
+              .data(coordinates);
+    }
 
         dots
             .exit()
@@ -433,7 +616,13 @@
             .attr('r', function(d, i){ return getCircleSize(d.rating);})
             .attr('fill', function(d, i){ return getCircleColour(d.outcome);})
             .attr('stroke', 'black')
-            .attr('class', 'dot')
+            .attr('class', function(){
+             if (player === "player1"){
+               return "dotPlayer1";
+             } else if (player === "player2"){
+               return "dotPlayer2 dotHidden";
+             }
+            })
             .on("mouseover", tipMouseover)
             .on("mouseout", tipMouseout);
 
