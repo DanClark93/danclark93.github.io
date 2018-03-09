@@ -61,6 +61,7 @@
             <option value="Premier League">Premier League</option>
             <option value="Championship">Championship</option>
             <option value="Bundesliga">Bundesliga</option>
+            <option value="La Liga">La Liga</option>
           </select>
         </br>
         Team:
@@ -81,6 +82,7 @@
             <option value="Premier League">Premier League</option>
             <option value="Championship">Championship</option>
             <option value="Bundesliga">Bundesliga</option>
+            <option value="La Liga">La Liga</option>
           </select>
         </br>
         Team:
@@ -208,6 +210,28 @@
       "Werder Bremen",
       "Wolfsburg"
     ]
+    var laLiga = [
+      "Athletic Club",
+      "Atletico Madrid",
+      "Barcelona",
+      "Celta de Vigo",
+      "Deportivo Alaves",
+      "Deportivo La Coruna",
+      "Eibar",
+      "Espanyol",
+      "Getafe",
+      "Girona",
+      "Las Palmas",
+      "Leganes",
+      "Levante",
+      "Malaga",
+      "Real Betis",
+      "Real Madrid",
+      "Real Sociedad",
+      "Sevilla",
+      "Valencia",
+      "Villarreal"
+    ]
     //league 1
     d3.select('#league')
       .on("change", function() {
@@ -254,6 +278,14 @@
                 text: team,
               }, '</option>'))
            });
+       } else if (leagueSelected === "La Liga"){
+             laLiga.forEach(function(team){
+               teamDropdown.append(
+                 $('<option>', {
+                   value: team,
+                   text: team,
+                 }, '</option>'))
+          });
         };
       });
 
@@ -302,6 +334,14 @@
                   value: team,
                   text: team,
                 }, '</option>'))
+             });
+          } else if (leagueSelected === "La Liga"){
+                laLiga.forEach(function(team){
+                  teamDropdown.append(
+                    $('<option>', {
+                      value: team,
+                      text: team,
+                    }, '</option>'))
              });
           };
         });
@@ -396,6 +436,8 @@
               chancesCSV = "championship.csv"
             } else if (leagueSelected === "Bundesliga"){
               chancesCSV = "bundesliga.csv"
+            } else if (leagueSelected === "La Liga"){
+              chancesCSV = "laliga.csv"
             }
 
             d3.csv(chancesCSV, function(csv_data){
@@ -440,6 +482,8 @@
             chancesCSV = "championship.csv"
           } else if (leagueSelected === "Bundesliga"){
             chancesCSV = "bundesliga.csv"
+          } else if (leagueSelected === "La Liga"){
+            chancesCSV = "laliga.csv"
           }
 
           d3.csv(chancesCSV, function(csv_data){
