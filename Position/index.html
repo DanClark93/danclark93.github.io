@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<header>
+  <link rel="stylesheet" href="main.css">
+  <!-- load the d3.js library -->
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+</header>
+<body>
+
+    <div class="flex-grid">
+        <div class="col">
+          <h1>Premier League Position</h1>
+        </div>
+    </div>
+    <div class="flex-grid">
+      <div class="col">
+        <p>This line graph shows the gameweek-by-gameweek league position of each team in the Premier League 2017/18 season. You can select/unselect certain teams for comparison purposes as well as selecting/unselecting all.</p>
+      </div>
+    </div>
+  </br>
+    <div class="flex-grid">
+      <div class="col">
+        <input name="ShowAllButton" type="Button" value="Show All" onClick="showAll()"/>
+          <input name="ClearAllButton" type="Button" value="Clear All" onClick="clearAll()"/>
+    <div class="flex-grid">
+      <div class="third">
+        <div id="legendContainer" class="legendContainer">
+            <svg id="legend">
+              <div id="legendArsenal"></div>
+            </svg>
+        </div>
+      </div>
+      <div class="col">
+        <div class="vis">
+        </div>
+      </div>
+    </div>
+    <script>
+
+        // Set the dimensions of the canvas / graph
+        var margin = {
+                top: 50,
+                right: 50,
+                bottom: 30,
+                left: 60
+            },
+            width = $(".vis").width() - margin.left - margin.right,
+            height = $(".vis").height() - margin.top - margin.bottom;
+
+        // Set the ranges
+        var x = d3.scaleLinear()
+            .rangeRound([0, width]);
+
+        var y = d3.scaleLinear()
+            .range([0, height]);
+
+        // Define the line
+        var stateline = d3.line()
+            .x(function(d) {
+                return x(d.week);
+            })
+            .y(function(d) {
+                return y(d.value);
+            });
+
+        // Adds the svg canvas
+        var svg = d3.select(".vis")
+            .append("svg")
+            .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom)
+            .append("g")
+            .attr("transform",
+                "translate(" + margin.left + "," + margin.top + ")");
+        var data;
+        // Get the data
+        d3.json("data.json", function(error, json) {
+
+            json.forEach(function(d) {
+                d.value = +d.value;
+            });
+
+            updateGraph(json);
+
+        });
+
+        var color = d3.scaleOrdinal().range(["#EC0C1C","#D41E2A", "#0A56A3", "#80234C", "#034694", "#1B458F","#063A99","#0E63AD","#1358A1","#E0202C","#99C5E7","#DC1F29","#FFFFFF","#D41E29","#D0122D","#FFFFFF","#FFFFFF","#FEEB00","#122F67","#7A263A"]);
+
+        function updateGraph(data) {
+          //console.log(data);
+            // Scale the range of the data
+            x.domain(d3.extent(data, function(d) {
+                return d.week;
+            }));
+            y.domain([d3.min(data, function(d) {
+                return d.value;
+            }), d3.max(data, function(d) {
+                return d.value;
+            })]);
+
+            // Nest the entries by Bookmaker
+            dataNest = d3.nest()
+                .key(function(d) {
+                    return d.club;
+                })
+                .entries(data);
+
+            var result = dataNest.filter(function(val, idx, arr) {
+
+               return $("." + val.key).attr("fill") != "#ccc"
+                // matching the data with selector status
+            })
+
+            var club = svg.selectAll(".line")
+                .data(result, function(d) {
+                    return d.key;
+                });
+
+            club.enter().append("path")
+                .attr("d", function(d){
+      				            return stateline(d.values)
+      			     })
+                .attr("class", "line")
+                .style("stroke", function(d, i) {
+                    return d.color = color(d.key);
+                })
+                .attr("id", function(d) {
+                    return 'tag' + d.key.replace(/\s+/g, '');
+                })
+
+            club.transition()
+                .style("stroke", function(d, i) {
+                    return d.color = color(d.key);
+                })
+                .attr("id", function(d) {
+                    return 'tag' + d.key.replace(/\s+/g, '');
+                }) // assign ID
+                .attr("d", function(d) {
+
+                    return stateline(d.values)
+                });
+
+            club.exit().remove();
+
+            var legend = d3.select("#legend")
+                .selectAll("text")
+                .data(dataNest, function(d) {
+                    return d.key;
+                });
+
+            //checkboxes
+            legend.enter().append("rect")
+                .attr("width", 10)
+                .attr("height", 10)
+                .attr("y", function(d, i) {
+                  return 30 + i * 40;
+                })
+                .attr("x", 50)
+                .attr("fill", function(d) {
+
+                    return color(d.key);
+
+                })
+                .attr("class", function(d, i) {
+                    return "legendcheckbox " + d.key;
+                })
+                .on("click", function(d) {
+                    d.active = !d.active;
+
+                    d3.select(this).attr("fill", function(d) {
+                        if (d3.select(this).attr("fill") == "#ccc") {
+
+                            return color(d.key);
+                        } else {
+                            return "#ccc";
+                        }
+                    })
+
+                    var result = dataNest.filter(function(val, idx, arr) {
+                        return $("." + val.key).attr("fill") != "#ccc"
+                        // matching the data with selector status
+                    })
+
+                    // Hide or show the lines based on the ID
+                    svg.selectAll(".line").data(result, function(d) {
+                            return d.key
+                        })
+                        .enter()
+                        .append("path")
+                        .attr("class", "line")
+                        .style("stroke", function(d, i) {
+                            return d.color = color(d.key);
+                        })
+                        .attr("d", function(d) {
+                            return stateline(d.values);
+                        });
+
+                    svg.selectAll(".line").data(result, function(d) {
+
+                        return d.key
+                    }).exit().remove()
+
+                })
+
+            // Add the Legend text
+            legend.enter().append("text")
+            .attr("y", function(d, i) {
+              return 41 + i * 40;
+            })
+            .attr("x", 70)
+                .attr("class", "legend")
+                .style("fill","#FFFFFF")
+                .text(function(d) {
+                    return d.key;
+                });
+
+            legend.transition()
+                .style("fill", "#777");
+
+            legend.exit().remove();
+
+            svg.selectAll(".axis").remove();
+
+            var xAxis = d3.scaleLinear()
+                .domain([1,30])
+                .rangeRound([0, width]);
+
+            // Add the X Axis
+            svg.append("g")
+                .attr("class", "x axis")
+                .attr("transform", "translate(0," + height + ")")
+                .call(d3.axisBottom(xAxis))
+                .append("text")
+                .attr("x", (width/2)-30)
+                .attr("y", 10)
+                .attr("dy", "0.71em")
+                .attr("fill", "#FFFFFF")
+                .style("font-size", "16px")
+                .text("Week");
+
+
+            // Add the Y Axis
+            svg.append("g")
+                .attr("class", "y axis")
+                .call(d3.axisLeft(y).ticks(20))
+                .append("text")
+                .attr("transform", "rotate(-90)")
+                .attr("y", -45)
+                .attr("dy", "0.71em")
+                .attr("fill", "#FFFFFF")
+                .style("font-size", "16px")
+                .text("Position");
+
+          svg.append("text")
+                .attr("transform",
+                "translate(" + (width/2) + " ," +
+                               (height + margin.top + 20) + ")")
+                               .style("text-anchor", "middle")
+                               .text("Date");
+
+      };
+
+      function clearAll(){
+          d3.selectAll(".line")
+        	.transition().duration(100)
+        			.attr("d", function(d){
+                return null;
+              });
+          d3.select("#legend").selectAll("rect")
+          .transition().duration(100)
+              .attr("fill", "#ccc");
+        };
+
+      function showAll(){
+        d3.selectAll(".line")
+      	.transition().duration(100)
+      			.attr("d", function(d){
+              return stateline(d.values);
+            });
+        d3.select("#legend").selectAll("rect")
+        .attr("fill",function(d) {
+
+             return color(d.key);
+         })
+       };
+
+    </script>
+</body>
