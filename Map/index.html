@@ -6,7 +6,7 @@
 
     <!-- Mobile views -->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
     <style>
         html, body, #vis {
 
@@ -23,6 +23,13 @@
             font-family: 'Open Sans', sans-serif;
         }
 
+        .flex-grid {
+          display: flex;
+        }
+
+        .flex-grid .col {
+          flex: 1;
+        }
 
         .area {
             stroke: #000;
@@ -132,7 +139,7 @@
 
                 d3.select("#info")
                 .classed("active", true)
-                .style("top", "100px")
+                .style("top", "150px")
                 .style("left", "30px");
 
             var party_name = "";
