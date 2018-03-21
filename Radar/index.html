@@ -6,27 +6,25 @@
 		<!-- Google fonts -->
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+		<link href="https://fonts.googleapis.com/css?family=Antic+Didone" rel="stylesheet">
 		<!-- D3.js -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
 
 		<style>
 			body {
-				font-family: 'Open Sans', sans-serif;
-				font-size: 14px;
+				font-family: 'Antic Didone', antic-didone-regular;
+				font-size: 16px;
 				font-weight: 300;
-				fill: #242424;
+				fill: hsl(0, 0%, 100%);
 				text-align: center;
-				text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
 				cursor: default;
-			}
-
-			.legend {
-				font-family: 'Raleway', sans-serif;
-				fill: #333333;
+				background-color:black;
+				color:white;
+				letter-spacing: 2px;
 			}
 
 			.tooltip {
-				fill: #333333;
+				fill: white;
 			}
       .flex-grid {
       display: flex;
@@ -39,46 +37,95 @@
     .flex-grid .col {
       flex: 1;
       text-align:center;
-      height: 800px;
+      height: 1000px;
     }
 
     .flex-grid .row {
       flex: 1;
     }
 
+		.trio {
+			display: flex;
+			flex-direction: column;
+		}
+
+		.three {
+			display: flex;
+			height: 33%;
+			width: 100%;
+		}
+
+		.graph {
+			width: 30%;
+			height: 100%;
+		}
+
 		a{
 			font-size:20px;
 			margin: 5px;
+		}
+
+		.graphText {
+			line-height: 2;
+			margin:7%;
+			text-align: left;
 		}
 		</style>
 
 	</head>
 	<body>
   <div>
-    <h1>Percentage of people who gamble in the UK</h1>
-  </div>
-  <div class="flex-grid">
-    <div class="row">
-      <a style="color:#CF091F;">England</a><a style="color:#2DAEFF">Scotland</a><a style="color:#00AC36">Wales</a>
-    </div>
+    <h1>Percentage of gamblers in Great Britain</h1>
+		<p>Data collected from the National Health Survey report by the gambling commission</p>
   </div>
   <div class="flex-grid">
       <div class="row">
         <div class="radarChartDetail">
         </div>
       </div>
+			<div class="row trio">
+				<div class="three">
+					<div class="graph">
+						<a style="color:#CF091F;">England</a>
+						<div class="radarChartEngland"></div>
+					</div>
+					<div class="graphText">
+						<strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+					</div>
+				</div>
+				<div class="three">
+					<div class="graph">
+						<a style="color:#2DAEFF">Scotland</a>
+						<div class="radarChartScotland"></div>
+					</div>
+					<div class="graphText">
+						<strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+					</div>
+				</div>
+				<div class="three">
+					<div class="graph">
+						<a style="color:#00AC36">Wales</a>
+						<div class="radarChartWales"></div>
+					</div>
+					<div class="graphText">
+						<strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+					</div>
+				</div>
+			</div>
   </div>
-
 		<script src="radarChart.js"></script>
+		<script src="lineGraph.js"></script>
 		<script>
 
 			//////////////////////////////////////////////////////////////
 			//////////////////////// Set-Up //////////////////////////////
 			//////////////////////////////////////////////////////////////
 
-			var margin = {top: 100, right: 100, bottom: 100, left: 100},
+			var margin = {top: 100, right: 100, bottom: 200, left: 100},
 				width = Math.min(800, window.innerWidth - 10) - margin.left - margin.right,
 				height = Math.min(width, window.innerHeight - margin.top - margin.bottom - 20);
+
+			var marginIndividual = {top: 10, right: 10, bottom: 10, left: 10};
 
 			//////////////////////////////////////////////////////////////
 			////////////////////////// Data //////////////////////////////
@@ -163,12 +210,83 @@
                   {axis:"Any other gambling",value:0.011}
                 ]
     					];
+
+							var dataEngland =  [//England 2016
+								[{axis:"Football pools",value:0.04},
+								{axis:"Offline bingo",value:0.03},
+								{axis:"Slot machines",value:0.08},
+								{axis:"Machines in bookmakers",value:0.05},
+								{axis:"Casino tables",value:0.05},
+								{axis:"Poker played in club or pub",value:0.02},
+								{axis:"Online slots, casinos, or bingo",value:0.04},
+								{axis:"Online betting with bookmaker",value:0.13},
+								{axis:"Betting exchange",value:0.02},
+								{axis:"Horse races (offline)",value:0.12},
+								{axis:"Dog races (offline)",value:0.03},
+								{axis:"Sport events (offline)",value:0.09},
+								{axis:"Other events (offline)",value:0.02},
+								{axis:"Spread-betting",value:0.01},
+								{axis:"Private betting",value:0.06},
+								{axis:"Any other gambling",value:0.02}]
+							];
+
+							var dataScotland = [
+								[
+									{axis:"Football pools",value:0.051},
+                  {axis:"Offline bingo",value:0.074},
+                  {axis:"Slot machines",value:0.081},
+                  {axis:"Machines in bookmakers",value:0.037},
+                  {axis:"Casino tables",value:0.034},
+                  {axis:"Poker played in club or pub",value:0.013},
+                  {axis:"Online slots, casinos, or bingo",value:0.039},
+                  {axis:"Online betting with bookmaker",value:0.098},
+                  {axis:"Betting exchange",value:0.009},
+                  {axis:"Horse races (offline)",value:0.115},
+                  {axis:"Dog races (offline)",value:0.018},
+                  {axis:"Sport events (offline)",value:0.073},
+                  {axis:"Other events (offline)",value:0.022},
+                  {axis:"Spread-betting",value:0.006},
+                  {axis:"Private betting",value:0.033},
+                  {axis:"Any other gambling",value:0.013}
+								]
+							];
+
+							var dataWales = [
+								[
+									{axis:"Football pools",value:0.023},
+                  {axis:"Offline bingo",value:0.064},
+                  {axis:"Slot machines",value:0.047},
+                  {axis:"Machines in bookmakers",value:0.022},
+                  {axis:"Casino tables",value:0.022},
+                  {axis:"Poker played in club or pub",value:0.01},
+                  {axis:"Online slots, casinos, or bingo",value:0.024},
+                  {axis:"Online betting with bookmaker",value:0.044},
+                  {axis:"Betting exchange",value:0.006},
+                  {axis:"Horse races (offline)",value:0.083},
+                  {axis:"Dog races (offline)",value:0.013},
+                  {axis:"Sport events (offline)",value:0.042},
+                  {axis:"Other events (offline)",value:0.013},
+                  {axis:"Spread-betting",value:0.006},
+                  {axis:"Private betting",value:0.026},
+                  {axis:"Any other gambling",value:0.011}
+								]
+							]
+
 			//////////////////////////////////////////////////////////////
 			//////////////////// Draw the Chart //////////////////////////
 			//////////////////////////////////////////////////////////////
 
 			var color = d3.scale.ordinal()
 				.range(["#2DAEFF","#CF091F","#00AC36"]);
+
+			var colorEngland = d3.scale.ordinal()
+				.range(["#CF091F"]);
+
+			var colorScotland = d3.scale.ordinal()
+					.range(["#2DAEFF"]);
+
+			var colorWales = d3.scale.ordinal()
+					.range(["#00AC36"]);
 
 			var radarChartOptions = {
 			  w: width,
@@ -179,9 +297,41 @@
 			  roundStrokes: true,
 			  color: color
 			};
+
+			var radarChartOptionsEngland = {
+			  w: 200,
+			  h: 200,
+			  margin: marginIndividual,
+			  maxValue: 0,
+			  levels: 5,
+			  roundStrokes: true,
+			  color: colorEngland
+			};
+
+			var radarChartOptionsScotland = {
+			  w: 200,
+			  h: 200,
+			  margin: marginIndividual,
+			  maxValue: 0,
+			  levels: 5,
+			  roundStrokes: true,
+			  color: colorScotland
+			};
+
+			var radarChartOptionsWales = {
+			  w: 200,
+			  h: 200,
+			  margin: marginIndividual,
+			  maxValue: 0,
+			  levels: 5,
+			  roundStrokes: true,
+			  color: colorWales
+			};
 			//Call function to draw the Radar chart
-			RadarChart(".radarChart", dataOverall, radarChartOptions);
-      RadarChart(".radarChartDetail", dataDetail, radarChartOptions);
+      RadarChart(".radarChartDetail", dataDetail, radarChartOptions, true);
+			RadarChart(".radarChartEngland", dataEngland, radarChartOptionsEngland, false);
+			RadarChart(".radarChartScotland", dataScotland, radarChartOptionsScotland, false);
+			RadarChart(".radarChartWales", dataWales, radarChartOptionsWales, false);
 		</script>
 	</body>
 </html>
