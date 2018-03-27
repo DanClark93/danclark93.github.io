@@ -35,7 +35,31 @@
   .skills {
     display:none;
   }
-  .skills-mobile {
+  .skills-tablet {
     display: flex;
+  }
+  .skills-mobile {
+    display:none;
+  }
+  .logo-collection {
+    flex-direction: column;
+  }
+  .logo-collection div {
+    width:60%;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .main-banner {
+    padding:15%;
+  }
+  .skills {
+    display:none;
+  }
+  .skills-tablet {
+    display:none;
+  }
+  .skills-mobile {
+    display:flex;
   }
 }

@@ -143,12 +143,12 @@ ul {
     display: none;
 }
 
-.skills, .skills-mobile {
+.skills, .skills-tablet, .skills-mobile {
   display:flex;
   width:100%;
 }
 
-.skills-mobile {
+.skills-mobile, .skills-tablet {
   text-align:center;
   display:none;
   flex-direction:column;
