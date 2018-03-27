@@ -1,0 +1,159 @@
+*{
+  font-family:"GT-Eesti", Lucida Sans;
+  font-size:20px;
+  line-height: 1.75;
+}
+
+
+h1 {
+  font-size: 62px;
+}
+
+h2 {
+  font-size: 44px;
+}
+
+h3 {
+  font-size:22px;
+}
+
+body{
+  margin:0px;
+  width:100%;
+}
+
+nav {
+  background-color:black;
+  position:fixed;
+  top: 0px;
+  width: 100%;
+}
+
+nav a{
+  color:white;
+  text-decoration:none;
+  font-size: 32px;
+  padding:1em;
+}
+
+nav a:hover {
+  text-decoration:underline;
+}
+
+.menu {
+  display:flex;
+}
+
+.menu a{
+  padding:1em;
+  flex-basis:20%;
+  text-align:center;
+}
+
+.main-banner, .writing, .contact {
+  background-color:#1c2533;
+  color:white;
+  display:flex;
+  flex-direction:column;
+  padding:1%;
+  background:-webkit-linear-gradient(70deg, #080f1f 30%, #2b4b5a 87%, #435e67 100%);
+  align-items:center;
+  text-align:center;
+}
+
+.main-banner{
+  padding:4%;
+}
+
+ul {
+  display:flex;
+  justify-content: space-between;
+  align-items:stretch;
+  width:100%;
+}
+
+.vis-section, .cv-section{
+  text-align:center;
+  align-items:center;
+  display:flex;
+  flex-direction:column;
+  padding:1%;
+}
+
+.vis-section i {
+  color:black;
+}
+
+.header {
+  width:100%;
+}
+
+.vis-section .content {
+  width:60%;
+}
+
+.flex-article {
+  display:flex;
+  width:100%;
+}
+
+.flex-image {
+  flex-basis:70%;
+}
+
+.flex-text {
+  flex-basis:30%;
+  text-align:left;
+  padding:5%;
+}
+
+.logo-collection{
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+}
+
+.logo-collection div {
+  width:30%;
+  margin:1em;
+}
+
+.logo-collection div img{
+  width:100%;
+}
+
+
+.cv-section img {
+  border: 1px solid black;
+  width:100%;
+}
+
+.social{
+  display:flex;
+  width: 50%;
+  justify-content:center;
+}
+
+.social a {
+  padding: 15%;
+  color:white;
+}
+
+.menu .icon {
+    display: none;
+}
+
+.skills, .skills-mobile {
+  display:flex;
+  width:100%;
+}
+
+.skills-mobile {
+  text-align:center;
+  display:none;
+  flex-direction:column;
+}
+
+.cv-image {
+  width:60%;
+}

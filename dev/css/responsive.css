@@ -1,0 +1,41 @@
+/* When the screen is less than 1000 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 1000px) {
+  .main-banner{
+    padding: 8%;
+  }
+
+  .menu {
+    display: unset !important;
+  }
+
+  .menu a {
+    display: none;
+  }
+  .menu a.icon {
+    display: block;
+  }
+  .menu.responsive {
+    position: relative;
+  }
+  .menu.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .menu.responsive a {
+    float: none;
+    display: block;
+  }
+  .flex-article {
+    flex-direction:column;
+  }
+}
+
+@media screen and (max-width: 900px){
+  .skills {
+    display:none;
+  }
+  .skills-mobile {
+    display: flex;
+  }
+}

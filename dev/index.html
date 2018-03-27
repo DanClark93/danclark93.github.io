@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Daniel Clark</title>
+  <!--Link to css style sheets-->
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/responsive.css">
+  <!--Link to font awesome css to use for icons-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery-1.12.2.js"></script>
+  <!--To ensure it media queries work correctly on mobile site-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<body>
+  <nav>
+    <div class="menu-container">
+      <div class="menu" id="menu">
+        <a href="#main-banner" class="active">About</a>
+        <a href="#vis-section">Data Vis</a>
+        <a href="#writing">Porfolio</a>
+        <a href="#cv-section">CV</a>
+        <a href="#contact">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+    </div>
+  </nav>
+  <!--Main Section-->
+  <main>
+    <!--Primary Section-->
+    <section class="main-banner" id="main-banner">
+      <h1>Daniel Clark</h1>
+      <h2>Web Developer. Data/Visual Journalist. Writer.</h2>
+      <div class="skills">
+        <ul>
+          <li>D3.js</li>
+          <li>HTML5</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Python</li>
+          <li>SQL</li>
+          <li>Java</li>
+          <li>.NET</li>
+        </ul>
+      </div>
+      <div class="skills-mobile">
+        <div>
+          <ul>
+            <li>D3.js</li>
+            <li>HTML5</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>Python</li>
+            <li>SQL</li>
+            <li>Java</li>
+            <li>.NET</li>
+          </ul>
+        </div>
+      </div>
+      <p>I am currently studying for a Masters in Computational and Data Journalism at Cardiff University, which has allowed me to add journalism and data visualisation skills on top of the six years’ experience I have in the web development industry.</p>
+
+    </section>
+    <!--About-->
+    <section class="vis-section" id="vis-section">
+      <div class="header">
+        <h2>Data Visualisations</h2>
+      </div>
+      <div class="content">
+        <p>This section contains a collection of data visualisations that I have created using d3.js.
+      </div>
+      <h3>Player comparison <a href="https://danclark93.github.io/StrataBet/Comparison/" target="_blank"><i class="fa fa-external-link fa"></i></a></h3>
+      <div class="flex-article">
+        <div class="flex-image">
+          <img src="images/Messi vs Ronaldo.gif" width="100%"/>
+        </div>
+        <div class="flex-text">
+          <p>This tool allows you to compare player's chance maps across
+            a variety of leagues. The size of the circle highlights the quality
+            of the chance, whilst the colour showcases the outcome. Hovering over
+            a particular chance will display additional information. The data was provided by StrataData</p>
+        </div>
+      </div>
+      <h3>Premier League week-by-week position line graph <a href="https://danclark93.github.io/Position/" target="_blank"><i class="fa fa-external-link fa"></i></a></h3>
+      <div class="flex-article">
+        <div class="flex-text">
+          <p>This line graph shows the gameweek-by-gameweek league position of
+            each team in the Premier League 2017/18 season. You can select/unselect
+            certain teams for comparison purposes as well as selecting/unselecting all.</p>
+        </div>
+          <div class="flex-image">
+            <img src="images/Position.gif" width="100%"/>
+          </div>
+      </div>
+      <h3>Gambling in Great Britain <a href="https://danclark93.github.io/Gambling%20Commission/" target="_blank"><i class="fa fa-external-link fa"></i></a></h3>
+      <div class="flex-article">
+        <div class="flex-image">
+          <img src="images/Gambling.gif" width="100%"/>
+        </div>
+        <div class="flex-text">
+          <p>Interactive map to show the results of the Gambling Commissions' health report on gambling.
+            You can click on a region to see the results for that particular area (in grey), whilst the average will show in white.</p>
+        </div>
+      </div>
+      <h3>UK Parliamentary Consituencys Map <a href="https://danclark93.github.io/Map" target="_blank"><i class="fa fa-external-link fa"></i></a></h3>
+      <div class="flex-article">
+        <div class="flex-text">
+          <p>Map to show the Parliamentary Consituencys in the UK. Click on a region
+            to find out which individual party and individual currently holds that Constituency.</p>
+        </div>
+          <div class="flex-image">
+            <img src="images/Government.gif" width="100%"/>
+          </div>
+      </div>
+    </section>
+    <!--Writing section-->
+    <section class="writing" id="writing">
+      <h2>Writing Portfolio</h2>
+      <p>I've been lucky to write for a number of companies, on a range of topics, with a speciality in Football and Technology.
+        Click on any of the logo's to read more of my work.<p>
+      <div class="logo-collection">
+        <div><a href="https://www.kdnuggets.com/author/dan-clark" target="_blank"><img src="images/kdnuggets.png" alt="KD Nuggets"/></a></div>
+        <div><a href="http://www.planetfootball.com/author/dan-clark/" target="_blank"><img src="images/planetfootball.png" alt="Plant Football"/></a></div>
+        <div><a href="https://thesefootballtimes.co/author/dan-clark/" target="_blank"><img src="images/thesefootballtimes.jpeg" alt="These Football Times"/></a></div>
+        <div><a href="https://wearecardiff.co.uk/2017/11/24/the-number-of-homeless-people-in-cardiff-is-on-the-rise/" target="_blank"><img src="images/wearecardiff.jpg" alt="We are Cardiff"/></a></div>
+      </div>
+      <h2>Development Portfolio</h2>
+      <p>I have over six years experience as a web developer and during that time I've been fortunate enough to help develop numerous exciting projects and working with the below companies:<p>
+      <div class="logo-collection">
+        <div><img src="images/bluesky.png" alt="Bluesky"/></div>
+        <div><img src="images/mb.png" alt="MB"/></div>
+      </div>
+    </section>
+    <!--CV Section-->
+    <section class="cv-section" id="cv-section">
+      <h2>CV</h2>
+      <h3>Click to download</h3>
+      <div class="cv-image">
+        <a href="https://drive.google.com/uc?export=download&id=1Z7YIsiDCFTBhu3kQzdPI227pDKze7Eyd" target="_blank"><img src="images/cv.png"/></a>
+      </div>
+    </section>
+    <!--Contact-->
+    <section class="contact" id="contact">
+      <h2>Contact</h2>
+      <h3>If you'd like to see more of my work, or just want to reach out, then send me an <a href="mailto:danielbenclark@outlook.com">email</a></h3>
+      <h3>Alternatively, you can connect with me on any of the below platforms:</h3>
+      <div class="social">
+        <a href="https://twitter.com/Dan_Clark5" target="_blank"><i class="fa fa-twitter-square fa-4x"></i></a> <a href="https://www.instagram.com/danny_clarky/" target="_blank"><i class="fa fa-instagram fa-4x"></i></a> <a href="https://www.linkedin.com/in/danielclark5/" target="_blank"><i class="fa fa-linkedin fa-4x"></i></a>
+      </div>
+    </section>
+</body>
+<script>
+//Animate scroll down to section
+  $(".menu a").click(function(event){
+    $('html,body').animate({scrollTop:($($(this).attr('href')).offset().top)-100}, 1700);
+    var x = document.getElementById("menu");
+    if (x.className === "menu responsive"){
+      x.className = "menu";
+    }
+  });
+
+  //Resposive menu
+  function myFunction() {
+    var x = document.getElementById("menu");
+    if (x.className === "menu") {
+        x.className += " responsive";
+    } else {
+        x.className = "menu";
+    }
+}
+
+</script>
