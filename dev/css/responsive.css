@@ -64,3 +64,9 @@
     display:flex;
   }
 }
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .main-banner, .writing {
+      display: block;
+    }
+}
