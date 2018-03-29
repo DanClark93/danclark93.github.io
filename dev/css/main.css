@@ -17,6 +17,10 @@ h3 {
   font-size:1.5em;
 }
 
+h3 a {
+  font-size:1.5em;
+}
+
 body{
   margin:0px;
   width:100%;
