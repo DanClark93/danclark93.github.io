@@ -65,8 +65,16 @@
   }
 }
 
+/*hack for IE 10+11*/
+
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
     .main-banner, .writing {
       display: block;
     }
+}
+
+@media screen and (min-width:0\0) {
+  .main-banner, .writing {
+    display: block;
+  }
 }
