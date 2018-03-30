@@ -1,13 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <!--Google tracking code-->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116668153-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-116668153-1');
+  </script>
+
   <title>Daniel Clark</title>
   <!--Link to css style sheets-->
   <link rel="stylesheet" type="text/css" href="css/main.css">
   <link rel="stylesheet" type="text/css" href="css/responsive.css">
   <!--Link to font awesome css to use for icons-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="https://code.jquery.com/jquery-1.12.2.js"></script>
+  <script src="https://code.jquery.com/jquery-1.10.1.js"></script>
   <!--To ensure it media queries work correctly on mobile site-->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
@@ -28,7 +39,7 @@
   <!--Main Section-->
   <main>
     <!--Primary Section-->
-    <section class="main-banner" id="main-banner">
+    <section class="main-banner target" id="main-banner">
       <h1>Daniel Clark</h1>
       <h2>Web Developer. Data/Visual Journalist. Writer.</h2>
       <div class="skills">
@@ -91,7 +102,7 @@
 
     </section>
     <!--About-->
-    <section class="vis-section" id="vis-section">
+    <section class="vis-section target" id="vis-section">
       <div class="header">
         <h2>Data Visualisations</h2>
       </div>
@@ -143,7 +154,7 @@
       </div>
     </section>
     <!--Writing section-->
-    <section class="writing" id="writing">
+    <section class="writing target" id="writing">
       <h2>Writing Portfolio</h2>
       <p>I have written articles and blogs, primarily focussing on football and
          technology, for a number of websites and media outlets.  Click on the logos below for some examples of these.<p>
@@ -161,7 +172,7 @@
       </div>
     </section>
     <!--CV Section-->
-    <section class="cv-section" id="cv-section">
+    <section class="cv-section target" id="cv-section">
       <h2>CV</h2>
       <h3>Click to download</h3>
       <div class="cv-image">
@@ -169,7 +180,7 @@
       </div>
     </section>
     <!--Contact-->
-    <section class="contact" id="contact">
+    <section class="contact target" id="contact">
       <h2>Contact</h2>
       <h3>Please feel free to send me an <a href="mailto:danielbenclark@outlook.com">email</a> and I will get back to you as soon as possible.</h3>
       <h3>Alternatively, you can connect with me on any of the below platforms:</h3>
@@ -181,7 +192,7 @@
 <script>
 //Animate scroll down to section
   $(".menu a").click(function(event){
-    $('html,body').animate({scrollTop:($($(this).attr('href')).offset().top)-100}, 1700);
+    $('html,body').animate({scrollTop:($($(this).attr('href')).offset().top)-75}, 1700);
     var x = document.getElementById("menu");
     if (x.className === "menu responsive"){
       x.className = "menu";
@@ -197,5 +208,19 @@
         x.className = "menu";
     }
 }
+
+$(window).on('scroll', function() {
+    $('.target').each(function() {
+        if($(window).scrollTop() >= ($(this).offset().top) - 85) {
+            var id = $(this).attr('id');
+            $('#menu a').removeClass('active');
+            $('#menu a[href=#'+ id +']').addClass('active');
+        }
+        else if($(window).scrollTop() + $(window).height() == $(document).height()) {
+          $('#menu a').removeClass('active');
+          $('#menu a[href=#contact]').addClass('active');
+        }
+    });
+});
 
 </script>
