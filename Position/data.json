@@ -150,6 +150,21 @@
    "club": "Arsenal"
  },
  {
+   "week": 31,
+   "value": 6,
+   "club": "Arsenal"
+ },
+ {
+   "week": 32,
+   "value": 6,
+   "club": "Arsenal"
+ },
+ {
+   "week": 33,
+   "value": 6,
+   "club": "Arsenal"
+ },
+ {
    "week": 1,
    "value": 15,
    "club": "Bournemouth"
@@ -297,6 +312,21 @@
  {
    "week": 30,
    "value": 12,
+   "club": "Bournemouth"
+ },
+ {
+   "week": 31,
+   "value": 10,
+   "club": "Bournemouth"
+ },
+ {
+   "week": 32,
+   "value": 10,
+   "club": "Bournemouth"
+ },
+ {
+   "week": 33,
+   "value": 11,
    "club": "Bournemouth"
  },
  {
@@ -447,6 +477,21 @@
  {
    "week": 30,
    "value": 11,
+   "club": "Brighton"
+ },
+ {
+   "week": 31,
+   "value": 12,
+   "club": "Brighton"
+ },
+ {
+   "week": 32,
+   "value": 13,
+   "club": "Brighton"
+ },
+ {
+   "week": 33,
+   "value": 13,
    "club": "Brighton"
  },
  {
@@ -600,6 +645,21 @@
    "club": "Burnley"
  },
  {
+   "week": 31,
+   "value": 7,
+   "club": "Burnley"
+ },
+ {
+   "week": 32,
+   "value": 7,
+   "club": "Burnley"
+ },
+ {
+   "week": 33,
+   "value": 7,
+   "club": "Burnley"
+ },
+ {
    "week": 1,
    "value": 14,
    "club": "Chelsea"
@@ -746,6 +806,21 @@
  },
  {
    "week": 30,
+   "value": 5,
+   "club": "Chelsea"
+ },
+ {
+   "week": 31,
+   "value": 5,
+   "club": "Chelsea"
+ },
+ {
+   "week": 32,
+   "value": 5,
+   "club": "Chelsea"
+ },
+ {
+   "week": 33,
    "value": 5,
    "club": "Chelsea"
  },
@@ -897,6 +972,21 @@
  {
    "week": 30,
    "value": 18,
+   "club": "CrystalPalace"
+ },
+ {
+   "week": 31,
+   "value": 16,
+   "club": "CrystalPalace"
+ },
+ {
+   "week": 32,
+   "value": 17,
+   "club": "CrystalPalace"
+ },
+ {
+   "week": 33,
+   "value": 17,
    "club": "CrystalPalace"
  },
  {
@@ -1050,6 +1140,21 @@
    "club": "Everton"
  },
  {
+   "week": 31,
+   "value": 9,
+   "club": "Everton"
+ },
+ {
+   "week": 32,
+   "value": 9,
+   "club": "Everton"
+ },
+ {
+   "week": 33,
+   "value": 9,
+   "club": "Everton"
+ },
+ {
    "week": 1,
    "value": 2,
    "club": "Huddersfield"
@@ -1197,6 +1302,21 @@
  {
    "week": 30,
    "value": 15,
+   "club": "Huddersfield"
+ },
+ {
+   "week": 31,
+   "value": 15,
+   "club": "Huddersfield"
+ },
+ {
+   "week": 32,
+   "value": 16,
+   "club": "Huddersfield"
+ },
+ {
+   "week": 33,
+   "value": 16,
    "club": "Huddersfield"
  },
  {
@@ -1350,6 +1470,21 @@
    "club": "Leicester"
  },
  {
+   "week": 31,
+   "value": 8,
+   "club": "Leicester"
+ },
+ {
+   "week": 32,
+   "value": 8,
+   "club": "Leicester"
+ },
+ {
+   "week": 33,
+   "value": 8,
+   "club": "Leicester"
+ },
+ {
    "week": 1,
    "value": 9,
    "club": "Liverpool"
@@ -1500,6 +1635,21 @@
    "club": "Liverpool"
  },
  {
+   "week": 31,
+   "value": 3,
+   "club": "Liverpool"
+ },
+ {
+   "week": 32,
+   "value": 3,
+   "club": "Liverpool"
+ },
+ {
+   "week": 33,
+   "value": 3,
+   "club": "Liverpool"
+ },
+ {
    "week": 1,
    "value": 3,
    "club": "ManCity"
@@ -1650,6 +1800,21 @@
    "club": "ManCity"
  },
  {
+   "week": 31,
+   "value": 1,
+   "club": "ManCity"
+ },
+ {
+   "week": 32,
+   "value": 1,
+   "club": "ManCity"
+ },
+ {
+   "week": 33,
+   "value": 1,
+   "club": "ManCity"
+ },
+ {
    "week": 1,
    "value": 1,
    "club": "ManUtd"
@@ -1796,6 +1961,21 @@
  },
  {
    "week": 30,
+   "value": 2,
+   "club": "ManUtd"
+ },
+ {
+   "week": 31,
+   "value": 2,
+   "club": "ManUtd"
+ },
+ {
+   "week": 32,
+   "value": 2,
+   "club": "ManUtd"
+ },
+ {
+   "week": 33,
    "value": 2,
    "club": "ManUtd"
  },
@@ -1950,6 +2130,21 @@
    "club": "Newcastle"
  },
  {
+   "week": 31,
+   "value": 13,
+   "club": "Newcastle"
+ },
+ {
+   "week": 32,
+   "value": 12,
+   "club": "Newcastle"
+ },
+ {
+   "week": 33,
+   "value": 10,
+   "club": "Newcastle"
+ },
+ {
    "week": 1,
    "value": 11,
    "club": "Southampton"
@@ -2100,6 +2295,21 @@
    "club": "Southampton"
  },
  {
+   "week": 31,
+   "value": 18,
+   "club": "Southampton"
+ },
+ {
+   "week": 32,
+   "value": 18,
+   "club": "Southampton"
+ },
+ {
+   "week": 33,
+   "value": 18,
+   "club": "Southampton"
+ },
+ {
    "week": 1,
    "value": 16,
    "club": "Stoke"
@@ -2250,6 +2460,21 @@
    "club": "Stoke"
  },
  {
+   "week": 31,
+   "value": 19,
+   "club": "Stoke"
+ },
+ {
+   "week": 32,
+   "value": 19,
+   "club": "Stoke"
+ },
+ {
+   "week": 33,
+   "value": 19,
+   "club": "Stoke"
+ },
+ {
    "week": 1,
    "value": 12,
    "club": "Swansea"
@@ -2397,6 +2622,21 @@
  {
    "week": 30,
    "value": 14,
+   "club": "Swansea"
+ },
+ {
+   "week": 31,
+   "value": 14,
+   "club": "Swansea"
+ },
+ {
+   "week": 32,
+   "value": 15,
+   "club": "Swansea"
+ },
+ {
+   "week": 33,
+   "value": 15,
    "club": "Swansea"
  },
  {
@@ -2550,6 +2790,21 @@
    "club": "Tottenham"
  },
  {
+   "week": 31,
+   "value": 4,
+   "club": "Tottenham"
+ },
+ {
+   "week": 32,
+   "value": 4,
+   "club": "Tottenham"
+ },
+ {
+   "week": 33,
+   "value": 4,
+   "club": "Tottenham"
+ },
+ {
    "week": 1,
    "value": 10,
    "club": "Watford"
@@ -2697,6 +2952,21 @@
  {
    "week": 30,
    "value": 10,
+   "club": "Watford"
+ },
+ {
+   "week": 31,
+   "value": 11,
+   "club": "Watford"
+ },
+ {
+   "week": 32,
+   "value": 11,
+   "club": "Watford"
+ },
+ {
+   "week": 33,
+   "value": 12,
    "club": "Watford"
  },
  {
@@ -2850,6 +3120,21 @@
    "club": "WestBrom"
  },
  {
+   "week": 31,
+   "value": 20,
+   "club": "WestBrom"
+ },
+ {
+   "week": 32,
+   "value": 20,
+   "club": "WestBrom"
+ },
+ {
+   "week": 33,
+   "value": 20,
+   "club": "WestBrom"
+ },
+ {
    "week": 1,
    "value": 20,
    "club": "WestHam"
@@ -2997,6 +3282,21 @@
  {
    "week": 30,
    "value": 16,
+   "club": "WestHam"
+ },
+ {
+   "week": 31,
+   "value": 17,
+   "club": "WestHam"
+ },
+ {
+   "week": 32,
+   "value": 14,
+   "club": "WestHam"
+ },
+ {
+   "week": 33,
+   "value": 14,
    "club": "WestHam"
  }
 ]
