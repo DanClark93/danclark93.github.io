@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Online Gambling Complaints - An Investigation</title>
+  <!--Link to css style sheets-->
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <!--Link to responsive css style sheets-->
+  <link rel="stylesheet" type="text/css" href="css/responsive.css">
+  <!--Link to Antic Didone font-->
+  <link href="https://fonts.googleapis.com/css?family=Antic+Didone" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <!--To ensure it media queries work correctly on mobile site-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<body>
+  <!--Main heading-->
+  <div class="flex-grid">
+    <div class="col">
+      <h1>Online gambling complaints on the ri$e</h1>
+    </div>
+  </div>
+
+  <!--Opening snippet-->
+  <div class="flex-grid">
+    <div class="col text">
+        <p>British online gambling companies are facing a rising tide of customer dissatisfaction. Complaints logged by online gambling operators increased by more than ten times between 2014 and 2015 and have continued to grow, according to a decade’s worth of company regulatory return data acquired via FOI from the UK Gambling Commission.</p>
+    </div>
+  </div>
+
+  <!--Div for the vis to display in and stick at the top-->
+  <div class="graphic followMeBar">
+    <!--Stacked vis showing complaints-->
+      <div class="flex-grid">
+        <div class="col">
+          <label><input type="radio" name="mode" value="stacked" checked> Stacked</label>
+          <label><input type="radio" name="mode" value="grouped"> Grouped</label>
+        </div>
+      </div>
+      <div class="flex-grid">
+        <div class="col">
+          <div id="visStacked"></div>
+        </div>
+      </div>
+  </div>
+
+  <!--Stacked vis text-->
+  <div class="stackedText">
+    <div class="flex-grid">
+      <div class="col text">
+        <p>Complaints in the “remote casino, betting and bingo” sector, or online gambling, earned 47 percent of complaints among all sectors in the last decade. But the last three years took 41 percent of complaints in the same period.</p>
+        <p>In 2017, more than 100,000 customers complained about their online gambling experience, becoming the highest year on record and earning 37 percent of remote gambling complaints in the last decade, with the last three years accounting for 87 percent.</p>
+        <p><a href="http://live-gamblecom.cloud.contensis.com/PDF/Complaints-processes-in-the-gambling-industry.pdf">March 2017 complaints process in the gambling industry report, chief executive Sarah Harrison</a>: “In the last year we received nearly 77,000 contacts from members of the public. This is an increase of over 300 per cent on the last two years. It tells us that existing complaints arrangements in the sector are not meeting consumer needs.” </p>
+        <p>The complaints come at a time when the UK Gambling Commission has issued more than £18 million in fines against gambling companies since 2016. The fines are centered around deceptive advertising and social responsibility, which allows gamblers to voluntarily opt-out, or “self-exclude,” from gambling offers.</p>
+      </div>
+    </div>
+  </div>
+
+  <!--Map vis and bar graph-->
+  <div class="map followMeBar">
+    <div class="flex-grid">
+      <div class="col">
+        <p>Click on a region to see the results for that particular area. The data is from the Gambling Commissions National Health Survey report on Gambling</p>
+      </div>
+    </div>
+    <div class="flex-grid">
+      <div class="col">
+        <h2 id="mapTitle"></h2>
+      </div>
+    </div>
+    <div class="flex-grid">
+      <div class="three">
+        <div id="visMap"></div>
+      </div>
+      <div class="three">
+        <div id="visMapBar"></div>
+      </div>
+    </div>
+  </div>
+
+  <!--Overview-->
+  <div class="overviewText">
+    <div class="flex-grid">
+      <div class="col text">
+        <h1>Overview</h1>
+        <p>Complaints in the “remote casino, betting and bingo” sector, or online gambling, earned 47 percent of complaints among all sectors in the last decade. But the last three years took 41 percent of complaints in the same period.</p>
+        <p>In 2017, more than 100,000 customers complained about their online gambling experience, becoming the highest year on record and earning 37 percent of remote gambling complaints in the last decade, with the last three years accounting for 87 percent.</p>
+        <p><a href="http://live-gamblecom.cloud.contensis.com/PDF/Complaints-processes-in-the-gambling-industry.pdf">March 2017 complaints process in the gambling industry report, chief executive Sarah Harrison</a>: “In the last year we received nearly 77,000 contacts from members of the public. This is an increase of over 300 per cent on the last two years. It tells us that existing complaints arrangements in the sector are not meeting consumer needs.” </p>
+        <p>The complaints come at a time when the UK Gambling Commission has issued more than £18 million in fines against gambling companies since 2016. The fines are centered around deceptive advertising and social responsibility, which allows gamblers to voluntarily opt-out, or “self-exclude,” from gambling offers.</p>
+      </div>
+    </div>
+  </div>
+
+  <!--Radar chart-->
+  <div class="radar followMeBar">
+    <div class="flex-grid">
+      <div class="col">
+        <p>This radar chart shows the percentage of the population that participated in the different gambling categories. The data is from the Gambling Commissions National Health Survey report on Gambling.</p>
+        <div id="radarChartDetail"></div>
+      </div>
+    </div>
+  </div>
+
+  <!--Individual radar charts and text-->
+  <div class="radarIndividual">
+    <div class="flex-grid">
+      <div class="three">
+        <div id="radarChartEngland"></div>
+      </div>
+      <div class="three text">
+        <h2 style="color:#CF091F;">England</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+      </div>
+    </div>
+
+    <div class="flex-grid">
+      <div class="three">
+        <div id="radarChartWales"></div>
+      </div>
+      <div class="three text">
+        <h2 style="color:#00AC36;">Wales</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+      </div>
+    </div>
+
+    <div class="flex-grid">
+      <div class="three">
+        <div id="radarChartScotland"></div>
+      </div>
+      <div class="three text">
+        <h2 style="color:#2DAEFF">Scotland</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+      </div>
+    </div>
+  </div>
+
+  <!--What are people complaining about section-->
+  <div class="complainingText">
+    <div class="flex-grid">
+      <div class="col text">
+        <h1>What are people complaining about?</h1>
+          <p>sComplaints in the “remote casino, betting and bingo” sector, or online gambling, earned 47 percent of complaints among all sectors in the last decade. But the last three years took 41 percent of complaints in the same period.</p>
+          <p>In 2017, more than 100,000 customers complained about their online gambling experience, becoming the highest year on record and earning 37 percent of remote gambling complaints in the last decade, with the last three years accounting for 87 percent.</p>
+          <p><a href="http://live-gamblecom.cloud.contensis.com/PDF/Complaints-processes-in-the-gambling-industry.pdf">March 2017 complaints process in the gambling industry report, chief executive Sarah Harrison</a>: “In the last year we received nearly 77,000 contacts from members of the public. This is an increase of over 300 per cent on the last two years. It tells us that existing complaints arrangements in the sector are not meeting consumer needs.” </p>
+          <p>The complaints come at a time when the UK Gambling Commission has issued more than £18 million in fines against gambling companies since 2016. The fines are centered around deceptive advertising and social responsibility, which allows gamblers to voluntarily opt-out, or “self-exclude,” from gambling offers.</p>
+        </div>
+      </div>
+   </div>
+
+   <!--Remote gambling in the UK on the rise-->
+   <div class="remoteText">
+     <div class="flex-grid">
+       <div class="col text">
+         <h1>Remote Gambling in the UK on the rise</h1>
+           <p>Complaints in the “remote casino, betting and bingo” sector, or online gambling, earned 47 percent of complaints among all sectors in the last decade. But the last three years took 41 percent of complaints in the same period.</p>
+           <p>In 2017, more than 100,000 customers complained about their online gambling experience, becoming the highest year on record and earning 37 percent of remote gambling complaints in the last decade, with the last three years accounting for 87 percent.</p>
+           <p><a href="http://live-gamblecom.cloud.contensis.com/PDF/Complaints-processes-in-the-gambling-industry.pdf">March 2017 complaints process in the gambling industry report, chief executive Sarah Harrison</a>: “In the last year we received nearly 77,000 contacts from members of the public. This is an increase of over 300 per cent on the last two years. It tells us that existing complaints arrangements in the sector are not meeting consumer needs.” </p>
+           <p>The complaints come at a time when the UK Gambling Commission has issued more than £18 million in fines against gambling companies since 2016. The fines are centered around deceptive advertising and social responsibility, which allows gamblers to voluntarily opt-out, or “self-exclude,” from gambling offers.</p>
+         </div>
+       </div>
+    </div>
+</body>
+
+<!--Link to d3 + jquery-->
+<script src="https://code.jquery.com/jquery-1.10.1.js"></script>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<!--Link to js and json files needed for the map to work-->
+<script src="js/queue.min.js"></script>
+<script src="js/topo.min.js"></script>
+<!--Link to color brewer-->
+<script src="js/colorbrewer.v1.js"></script>
+<!--Link to invdividual d3 visualistaions-->
+<script src="js/stacked.js"></script>
+<script src="js/radar.js"></script>
+<script src="js/map.js"></script>
+<script>
+var stickyHeaders = (function() {
+
+  var $window = $(window),
+      $stickies;
+
+  var load = function(stickies) {
+
+    if (typeof stickies === "object" && stickies instanceof jQuery && stickies.length > 0) {
+
+      $stickies = stickies.each(function() {
+
+        var $thisSticky = $(this).wrap('<div class="followWrap" />');
+
+        $thisSticky
+            .data('originalPosition', $thisSticky.offset().top)
+            .data('originalHeight', $thisSticky.outerHeight())
+              .parent()
+              .height($thisSticky.outerHeight());
+      });
+
+      $window.off("scroll.stickies").on("scroll.stickies", function() {
+		  _whenScrolling();
+      });
+    }
+  };
+
+  var _whenScrolling = function() {
+
+    $stickies.each(function(i) {
+
+      var $thisSticky = $(this),
+          $stickyPosition = $thisSticky.data('originalPosition');
+
+      if ($stickyPosition <= $window.scrollTop()) {
+
+        var $nextSticky = $stickies.eq(i + 1),
+            $nextStickyPosition = $nextSticky.data('originalPosition') - $thisSticky.data('originalHeight');
+
+        $thisSticky.addClass("fixed");
+
+        if ($nextSticky.length > 0 && $thisSticky.offset().top >= $nextStickyPosition) {
+
+          $thisSticky.addClass("absolute").css("top", $nextStickyPosition);
+        }
+
+      } else {
+
+        var $prevSticky = $stickies.eq(i - 1);
+
+        $thisSticky.removeClass("fixed");
+
+        if ($prevSticky.length > 0 && $window.scrollTop() <= $thisSticky.data('originalPosition') - $thisSticky.data('originalHeight')) {
+
+          $prevSticky.removeClass("absolute").removeAttr("style");
+        }
+      }
+    });
+  };
+
+  return {
+    load: load
+  };
+})();
+
+$(function() {
+  stickyHeaders.load($(".followMeBar"));
+});
+
+</script>

@@ -1,0 +1,123 @@
+* {
+  color: #484848;
+  background-color: white;
+  font-family: 'Open Sans Condensed', antic-didone-regular;
+  font-size: 16;
+  line-height: 2;
+  letter-spacing: 2.4px;
+}
+
+body {
+  width: 100%;
+  margin: 0px;
+}
+
+h1 {
+  font-size: 3em;
+  text-transform: uppercase;
+  font-family: 'Lato';
+  letter-spacing: 10px;
+  color: #282828;
+}
+
+h2 {
+  font-size: 2em;
+  text-transform: uppercase;
+  font-family: 'Lato';
+  line-height: 1;
+  color: #282828;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+.flex-grid {
+  display: flex;
+}
+
+.flex-grid .col {
+  flex: 1;
+  text-align: center;
+}
+
+.flex-grid .two {
+  flex-basis: 50%;
+}
+
+.flex-grid .three:nth-child(1){
+  flex-basis: 33%;
+}
+
+.flex-grid .three:nth-child(2){
+  flex-basis: 67%;
+}
+
+.axis text {
+  fill: #484848;
+  font-size: 14px;
+}
+
+.toolTip {
+  position: absolute;
+  color: black;
+  display: none;
+  min-width: 80px;
+  background: none repeat scroll 0 0 white;
+  height: auto;
+  border: 1px solid black;
+  padding: 14px;
+  text-align: center;
+  z-index: 2;
+}
+
+.text {
+  margin: 5%;
+}
+
+.followMeBar {
+  position: relative;
+  z-index: 1;
+}
+
+.followMeBar.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 0;
+}
+
+.followMeBar.fixed.absolute {
+  position: absolute;
+}
+
+.graphic, .map, .radar, .complainingText{
+    border-bottom: 2px dotted black;
+}
+
+.complainingText {
+  border-top: 2px dotted black;
+}
+
+#visMap, #visMapBar, #radarChartDetail {
+  width:100%;
+  height:440px;
+}
+
+.area {
+  fill: black;
+  stroke: white;
+}
+
+.tick text {
+  fill: black;
+}
+
+.barAxis .tick text {
+  stroke: black;
+}
+
+.radarIndividual {
+  padding-top: 3%;
+}
