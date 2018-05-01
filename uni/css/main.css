@@ -71,21 +71,18 @@ p {
   z-index: 2;
 }
 
-.text {
-  margin: 5%;
-}
-
 .followMeBar {
-  position: relative;
   z-index: 1;
+  -webkit-transform: translateZ(0);
+  position: relative;
 }
 
 .followMeBar.fixed {
+  z-index: 0;
   position: fixed;
   top: 0;
   width: 100%;
   box-sizing: border-box;
-  z-index: 0;
 }
 
 .followMeBar.fixed.absolute {
@@ -100,9 +97,13 @@ p {
   border-top: 2px dotted black;
 }
 
-#visMap, #visMapBar, #radarChartDetail {
-  width:100%;
-  height:440px;
+.graphic, #visMap, #visMapBar, #radarChartDetail {
+  width: 100%;
+  height: 440px;
+}
+
+.graphic {
+  padding-bottom: 5%;
 }
 
 .area {

@@ -1,4 +1,4 @@
-d3.csv("data/stackedData.csv", function(err, data) {
+d3.csv("https://danclark93.github.io/uni/data/stackedData.csv", function(err, data) {
   var allCategories = ["Remote Casino Betting And Bingo","Betting","Society Lottery","Adult Gaming Centre","Bingo","Casino","External Lottery Manager","Family Entertainment Centre"];
   var years = ["2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017"]
   var tooltip = d3.select("body").append("div").attr("class", "toolTip");

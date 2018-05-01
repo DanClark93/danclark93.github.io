@@ -91,7 +91,7 @@ function updateBarChart(region){
       });
   }
 
-  d3.csv("data/" + barChartCsv, function(csv_data){
+  d3.csv("https://danclark93.github.io/uni/data/" + barChartCsv, function(csv_data){
     barChartData = csv_data;
 
     var t = d3.transition()
@@ -227,7 +227,7 @@ function draw(eer) {
     .scale(1)
     .translate([0,0]);
 var b = path.bounds(topojson.feature(eer, eer.objects["eer"]));
-var s = .95 / Math.max((b[1][0] - b[0][0])/width, (b[1][1] - b[0][1])/height);
+var s = .99 / Math.max((b[1][0] - b[0][0])/width, (b[1][1] - b[0][1])/(height+200));
 var t = [(width - s * (b[1][0] + b[0][0]))/2, (height - s * (b[1][1] + b[0][1]))/2];
 
 projection
@@ -270,7 +270,7 @@ function init() {
 
 
     d3.queue()
-      .defer(d3.json, "js/topo.json")
+      .defer(d3.json, "https://danclark93.github.io/uni/js/topo.json")
       .await(function(error, boundary_data){
         draw(boundary_data);
       });
