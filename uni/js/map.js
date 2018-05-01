@@ -227,7 +227,7 @@ function draw(eer) {
     .scale(1)
     .translate([0,0]);
 var b = path.bounds(topojson.feature(eer, eer.objects["eer"]));
-var s = .99 / Math.max((b[1][0] - b[0][0])/width, (b[1][1] - b[0][1])/(height+200));
+var s = .95 / Math.max((b[1][0] - b[0][0])/width, (b[1][1] - b[0][1])/height);
 var t = [(width - s * (b[1][0] + b[0][0]))/2, (height - s * (b[1][1] + b[0][1]))/2];
 
 projection
