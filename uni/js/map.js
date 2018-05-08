@@ -56,7 +56,12 @@ barChartSVG.append("g")
 
 function updateBarChart(region){
 
-  $("#mapTitle").html(region);
+  if (region === "Overall"){
+    $("#mapTitle").html("GB Average");
+  }else {
+    $("#mapTitle").html("GB Average vs " + region);
+  }
+
 
   var barChartCsv;
   var barChartData;
@@ -117,12 +122,12 @@ function updateBarChart(region){
       .transition(t)
       .attr("fill", function(d,i){
         if (region == "Overall"){
-          return "#d73027";
+          return "#bd0026";
         } else {
           if (i == 1 || i == 3 || i == 5 || i == 7 || i == 9){
-            return "#f46d43";
+            return "#e31a1c";
           } else {
-            return "#d73027";
+            return "#bd0026";
           }
         }
       })
@@ -150,22 +155,12 @@ function updateBarChart(region){
       new_barsText.merge(barsText)
         .transition(t)
         .attr("x", function(d){
-          return x_scale(eval(d.Percentage)+.5);
+          return x_scale(eval(d.Percentage)-3);
         })
         .attr("y", function(d, i){
           return y_scale(i) + (y_scale.bandwidth()/2);
         })
-        .attr("fill", function(d,i){
-          if (region === "Overall"){
-            return "#d73027"
-          } else {
-            if (i == 0 || i == 2 || i == 4 || i == 6 || i == 8){
-              return "#d73027";
-            } else {
-              return "#f46d43";
-            }
-          }
-        })
+        .attr("fill", "#d5d5d5")
         .attr("height", y_scale.bandwidth())
         .attr("dx",".35em")
         .attr("dy","0.5em")
@@ -192,7 +187,7 @@ function updateBarChart(region){
 // reset function returns to default state
 function reset() {
   active.style("opacity", 1.0);
-  active.style("stroke", "white");
+  active.style("stroke", "black");
   active = d3.select(null);
   updateBarChart("Overall");
 }

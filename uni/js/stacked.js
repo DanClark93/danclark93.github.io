@@ -70,7 +70,7 @@ d3.csv("https://danclark93.github.io/uni/data/stackedData.csv", function(err, da
 
     var color = d3.scaleOrdinal()
        .domain([0, n-1])
-       .range(colorbrewer.RdYlGn[9]);
+       .range(colorbrewer.DanCustom[9]);
 
     var svg = d3.select("#visStacked").append("svg")
           .attr("width", width + margin.left + margin.right)
@@ -140,7 +140,7 @@ d3.csv("https://danclark93.github.io/uni/data/stackedData.csv", function(err, da
         .attr("y", 9)
         .attr("dy", ".35em")
         .style("text-anchor", "end")
-        .style("fill", "black")
+        .style("fill", "#d5d5d5")
         .text(function(d) { return d; });
 
     d3.selectAll("input").on("change", change);

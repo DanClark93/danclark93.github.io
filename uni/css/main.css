@@ -1,7 +1,7 @@
 * {
-  color: #484848;
-  background-color: white;
-  font-family: 'Open Sans Condensed', antic-didone-regular;
+  color: #d5d5d5;
+  background-color: #373737;
+  font-family: 'Archivo Narrow', antic-didone-regular;
   font-size: 16;
   line-height: 2;
   letter-spacing: 2.4px;
@@ -15,17 +15,17 @@ body {
 h1 {
   font-size: 3em;
   text-transform: uppercase;
-  font-family: 'Lato';
-  letter-spacing: 10px;
-  color: #282828;
+  font-family: 'Alegreya Sans SC';
+  letter-spacing: 4px;
+  color: #d5d5d5;
 }
 
 h2 {
   font-size: 2em;
   text-transform: uppercase;
-  font-family: 'Lato';
+  font-family: 'Alegreya Sans SC';
   line-height: 1;
-  color: #282828;
+  color: #d5d5d5;
 }
 
 p {
@@ -54,16 +54,16 @@ p {
 }
 
 .axis text {
-  fill: #484848;
+  fill: #d5d5d5;
   font-size: 14px;
 }
 
 .toolTip {
   position: absolute;
-  color: black;
+  color: #d5d5d5;
   display: none;
   min-width: 80px;
-  background: none repeat scroll 0 0 white;
+  background: none repeat scroll 0 0 #373737;
   height: auto;
   border: 1px solid black;
   padding: 14px;
@@ -89,12 +89,8 @@ p {
   position: absolute;
 }
 
-.graphic, .map, .radar, .complainingText{
-    border-bottom: 2px dotted black;
-}
-
-.complainingText {
-  border-top: 2px dotted black;
+.graphic, .map, .radar, .stackedText{
+    border-bottom: 2px dotted white;
 }
 
 .graphic, #visMap, #visMapBar, #radarChartDetail {
@@ -103,20 +99,20 @@ p {
 }
 
 .graphic {
-  padding-bottom: 5%;
+  padding-bottom: 6%;
 }
 
 .area {
-  fill: black;
-  stroke: white;
+  fill: white;
+  stroke: black;
 }
 
 .tick text {
-  fill: black;
+  fill: #d5d5d5;
 }
 
 .barAxis .tick text {
-  stroke: black;
+  stroke: #d5d5d5;
 }
 
 .radarIndividual {
