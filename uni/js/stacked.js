@@ -55,7 +55,7 @@ d3.csv("https://danclark93.github.io/uni/data/stackedData.csv", function(err, da
       });
    var margin = {top: 40, right: 10, bottom: 20, left: 100},
        width = document.querySelector("#visStacked").clientWidth - margin.left - margin.right,
-      height = 500 - margin.top - margin.bottom;
+      height = 325 - margin.top - margin.bottom;
 
    var x = d3.scaleBand()
             .domain(years)
