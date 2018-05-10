@@ -89,11 +89,15 @@ p {
   position: absolute;
 }
 
-.graphic, .map, .radar, .stackedText{
+.graphic {
+    border-top: 2px dotted white;
+  }
+
+.graphic, .map, .stackedText{
     border-bottom: 2px dotted white;
 }
 
-.graphic, #visMap, #visMapBar, #radarChartDetail, #visDisputeOutcome, #visDisputeBreakdown, #visOpeatorIncrease, #visFines {
+.graphic, #visMap, #visMapBar, #visDisputeOutcome, #visDisputeBreakdown, #visOpeatorIncrease, #visFines {
   width: 100%;
   height: 400px;
 }
@@ -110,16 +114,3 @@ p {
 .barAxis .tick text {
   stroke: #d5d5d5;
 }
-
-.radarIndividual {
-  padding-top: 3%;
-}
-
-.d3-tip {
-      line-height: 1;
-      font-weight: bold;
-      padding: 10px;
-      background: rgba(0, 0, 0, 0.8);
-      color: #fff;
-      border-radius: 10px;
-    }
