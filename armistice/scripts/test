@@ -1,0 +1,16 @@
+#!/bin/bash
+# If we get one argument
+if (( $# == 1 ))
+  then
+  # Iterate over the arguments
+  for i in "$@" ; do
+    # If the argument is `-u`
+    if [[ $i == "-u" ]] ; then
+      # Run the test command with the -u flag
+      ./node_modules/jest/bin/jest.js --coverage -u
+    fi
+  done
+else
+  # Otherwise, run the test command without the -u flag
+  ./node_modules/jest/bin/jest.js --coverage
+fi

@@ -1,0 +1,232 @@
+@import '../../settings';
+
+.Sidebar {
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+  width: 100%;
+  max-height: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  transition: all 0.2s ease;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+
+  @media screen and (min-width: $breakpoint-tablet) {
+    position: sticky;
+    left: auto;
+    right: 0;
+    top: 0;
+    width: 38rem;
+    height: calc(100vh - 14rem);
+    background-color: #212529;
+    overflow: initial;
+  }
+
+  @media screen and (min-width: $breakpoint-desktop) {
+    height: calc(100vh - 4rem);
+  }
+
+  &.entering,
+  &.entered {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  &.exiting,
+  &.exited {
+    opacity: 0.5;
+    transform: translateY(2rem);
+  }
+
+  .content {
+    margin-top: calc(56.25vw + 5rem);
+    background-color: #212529;
+    padding: 1.4rem 1.4rem 0;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+
+    @media screen and (min-width: $breakpoint-mobile) {
+      padding: 2rem 2rem 2rem 0.5rem;
+    }
+
+    @media screen and (min-width: $breakpoint-tablet) {
+      margin-top: 4rem;
+      margin-bottom: 0;
+      bottom: 0;
+      height: calc(100% - 5rem);
+    }
+  }
+
+  h4 {
+    color: #ffffff;
+  }
+
+  h5 {
+    color: #fcf1e5;
+  }
+
+  .excerpt,
+  .commentary {
+    color: #ffffff;
+    font-size: 1.5rem;
+
+    p {
+      line-height: 1.4em;
+      padding: 0.5rem;
+
+      @media screen and (min-width: $breakpoint-tablet) {
+        padding: 1rem;
+      }
+    }
+  }
+
+  .excerpt {
+    border: 2px solid #0088cc;
+    border-radius: 4px;
+    padding: 0 1.4rem 1.4rem;
+    margin-bottom: 1.8rem;
+    font-size: 1.4rem;
+    line-height: 1.57em;
+
+    @media screen and (min-width: $breakpoint-mobile) {
+      padding: 0 1.8rem 1.9rem 1.9rem;
+    }
+
+    p {
+      font-size: 1.4rem;
+      line-height: 1.5em;
+
+      @media screen and (max-width: $breakpoint-mobile) {
+        animation-name: fadeIn;
+        animation-duration: 1.5s;
+      }
+    }
+
+    .number {
+      transform: translateY(-50%);
+      background-color: #212529;
+      display: table;
+      margin: 0 auto;
+      padding: 0 2rem;
+      text-align: center;
+      font-family: 'TimesModern-Regular';
+      font-size: 1.7rem;
+      line-height: 1.1em;
+      letter-spacing: 0.3px;
+    }
+  }
+
+  .commentary {
+    padding: 0 1.4rem 2rem;
+
+    @media screen and (min-width: $breakpoint-tablet) {
+      padding: 0 1.8rem 7rem 1.9rem;
+    }
+
+    .author {
+      padding-bottom: 1.2rem;
+
+      img {
+        max-width: 5rem;
+        margin-right: 1rem;
+        float: left;
+      }
+
+      h4 {
+        margin-top: 0.75rem;
+        font-family: 'TimesModern-Regular';
+      }
+
+      h5 {
+        font-family: 'GillSansMTStd-Medium';
+      }
+
+      h4,
+      h5 {
+        font-weight: normal;
+        @include font-smoothing;
+      }
+    }
+
+    p {
+      font-family: 'GillSansMTStd-Medium';
+      @include font-smoothing;
+      font-size: 1.5rem;
+      line-height: 1.4em;
+
+      @media screen and (max-width: $breakpoint-mobile) {
+        animation-name: fadeIn;
+        animation-duration: 1.5s;
+      }
+    }
+  }
+
+  nav {
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 5rem;
+    background-color: #212529;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.4rem;
+
+    @media screen and (min-width: $breakpoint-tablet) {
+      top: calc(100vh - 9rem);
+    }
+
+    // Safari hack
+    @media screen and (min-color-index: 0) and(-webkit-min-device-pixel-ratio:0) {
+      position: -webkit-sticky;
+    }
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      transform: translateY(-100%);
+      height: 3rem;
+      background: linear-gradient(180deg, rgba(33, 37, 41, 0) 0%, #212529 100%);
+    }
+
+    button {
+      background-color: transparent;
+      border: none;
+      color: white;
+      font-family: 'GillSansMTStd-Medium';
+      @include font-smoothing;
+      text-transform: uppercase;
+      font-size: 1.4rem;
+      cursor: pointer;
+
+      i {
+        font-size: 0.9rem;
+        margin-top: -0.3rem;
+
+        @media screen and (min-width: $breakpoint-tablet) {
+          display: none;
+        }
+      }
+
+      &:disabled {
+        opacity: 0;
+      }
+    }
+  }
+  em {
+    font-style: normal;
+    font-family: 'GillSansW01-MediumItalic';
+  }
+}

@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<entry xmlns="http://www.w3.org/2005/Atom" xmlns:age="http://purl.org/atompub/age/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:cpi="http://xmlns.new.co.uk/types" xmlns:web="http://thetimes.co.uk">
+
+  <id>http://nuk-tnl-editorial-prod-staticassets.s3.amazonaws.com/public/takeover-pages/armistice-end-first-world-war-ww1/54f09341-54f2-419e-b57b-770192571ed8</id>
+  <identifier>54f09341-54f2-419e-b57b-770192571ed8</identifier>
+  <updated>2018-11-06T10:58:32.056Z</updated>
+  <published>2018-11-03T00:00:00.000Z</published>
+  <version>1</version>
+  <region/>
+  <category term="server-component"/>
+  <age:expires/>
+  <cpi:publication>times</cpi:publication>
+  <cpi:caption type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">times-armistice</div>
+  </cpi:caption>
+
+  <authorised>
+    <component_styles></component_styles>
+    <component_scripts>
+      <component_script>
+        <url>//extras.thetimes.co.uk/web/public/takeover-pages/armistice-end-first-world-war-ww1/index.js?v=2018-11-06T10:58:32.056Z</url>
+        <name>armistice-end-first-world-war-ww1-script</name>
+      </component_script>
+    </component_scripts>
+    <component_content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><style>.Container.Container--blank{background-color:#F5EFEC;}@charset "UTF-8";
+/**
+ * Breakpoints
+ */
+@font-face {
+  font-family: 'GillSansW01-MediumItalic';
+  src: url("https://fonts.timesdev.tools/fonts/GillSansW01-MediumItalic.eot");
+  src: local("\263A"), url("https://fonts.timesdev.tools/fonts/GillSansW01-MediumItalic.eot?iefix") format("eot"), url("https://fonts.timesdev.tools/fonts/GillSansW01-MediumItalic.woff") format("woff"), url("https://fonts.timesdev.tools/fonts/GillSansW01-MediumItalic.ttf") format("truetype"), url("https://fonts.timesdev.tools/fonts/GillSansW01-MediumItalic.svg#webfont") format("svg"), local("\263A");
+  font-weight: normal;
+  font-style: normal; }
+
+.MainContainer {
+  overflow: initial; }
+
+#ad-header {
+  display: none !important; }
+
+.ArticleMarketing {
+  display: none !important; }
+
+.Article-marketingBlock {
+  display: none !important; }
+
+.MarketingBanner {
+  display: none !important; }
+
+.ConversionPopup {
+  display: none !important; }
+
+.OnboardingBanner {
+  display: none !important; }
+
+.__evo-launchpad {
+  display: none !important; }
+
+.style_scrollContainer_3iO {
+  height: calc(100vh - 4rem);
+  overflow: hidden; }
+  @media screen and (min-width: 1180px) {
+    .style_scrollContainer_3iO {
+      overflow: auto;
+      -webkit-overflow-scrolling: touch; } }
+
+.style_Armistice_10r {
+  width: 100%;
+  background-color: #212529; }
+  .style_Armistice_10r .style_content_22i {
+    display: flex; }
+
+body {
+  overflow: hidden;
+  position: fixed;
+  width: 100%; }
+  @media screen and (min-width: 1024px) {
+    body.armistice--loading .style_scrollContainer_3iO {
+      overflow: hidden; } }
+@charset "UTF-8";
+/**
+ * Breakpoints
+ */
+@font-face {
+  font-family: 'GillSansW01-MediumItalic';
+  src: url("https://fonts.timesdev.tools/fonts/GillSansW01-MediumItalic.eot");
+  src: local("\263A"), url("https://fonts.timesdev.tools/fonts/GillSansW01-MediumItalic.eot?iefix") format("eot"), url("https://fonts.timesdev.tools/fonts/GillSansW01-MediumItalic.woff") format("woff"), url("https://fonts.timesdev.tools/fonts/GillSansW01-MediumItalic.ttf") format("truetype"), url("https://fonts.timesdev.tools/fonts/GillSansW01-MediumItalic.svg#webfont") format("svg"), local("\263A");
+  font-weight: normal;
+  font-style: normal; }
+
+.MainContainer {
+  overflow: initial; }
+
+#ad-header {
+  display: none !important; }
+
+.ArticleMarketing {
+  display: none !important; }
+
+.Article-marketingBlock {
+  display: none !important; }
+
+.MarketingBanner {
+  display: none !important; }
+
+.ConversionPopup {
+  display: none !important; }
+
+.OnboardingBanner {
+  display: none !important; }
+
+.__evo-launchpad {
+  display: none !important; }
+
+.style_LoggedOut_I4z {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  opacity: 0;
+  z-index: 10;
+  transition: opacity 1s ease;
+  pointer-events: none;
+  padding: 1rem; }
+  .style_LoggedOut_I4z.style_entering_3lg {
+    display: flex; }
+  .style_LoggedOut_I4z.style_entered_1Ls {
+    opacity: 1;
+    display: flex;
+    pointer-events: initial; }
+  .style_LoggedOut_I4z .style_overlay_Afd {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(33, 37, 41, 0.9); }
+  .style_LoggedOut_I4z .style_container_3hj {
+    position: relative;
+    background: #fff;
+    width: 100%;
+    max-width: 56rem;
+    z-index: 11;
+    margin: auto; }
+    .style_LoggedOut_I4z .style_container_3hj aside {
+      padding-top: 56.25%;
+      background-size: cover;
+      background-position: top center; }
+    .style_LoggedOut_I4z .style_container_3hj main {
+      padding: 3rem 2rem;
+      text-align: center; }
+      @media screen and (min-width: 520px) {
+        .style_LoggedOut_I4z .style_container_3hj main {
+          padding: 3rem 4rem; } }
+      @media screen and (min-width: 768px) {
+        .style_LoggedOut_I4z .style_container_3hj main {
+          padding: 3rem 9rem; } }
+      .style_LoggedOut_I4z .style_container_3hj main h1 {
+        font-size: 2.6rem;
+        margin: 0 0 0.5rem; }
+      .style_LoggedOut_I4z .style_container_3hj main p {
+        font-size: 1.8rem;
+        line-height: 1.4em;
+        margin: 0 0 1.5rem; }
+      .style_LoggedOut_I4z .style_container_3hj main a {
+        background-color: #00aaad;
+        color: #fff;
+        font-size: 1.8rem;
+        padding: 1.2rem 1rem 0.8rem;
+        font-family: 'GillSansMTStd-Medium';
+        display: block;
+        max-width: 17rem;
+        margin: 0 auto 1.5rem; }
+      .style_LoggedOut_I4z .style_container_3hj main span {
+        color: #666;
+        font-family: 'GillSansMTStd-Medium';
+        font-size: 1.4rem; }
+</style><div id="times-armistice-app" class="times-armistice-app times-armistice-app__authenticated"><div class="style_LoggedOut_I4z "><div class="style_overlay_Afd"></div><div class="style_container_3hj"><aside style="background-image:url(https://nuk-tnl-editorial-prod-staticassets.s3.amazonaws.com/public/takeover-pages/armistice-end-first-world-war-ww1/assets/657b0d9de809854aec5684d9161a0f08.jpg)"></aside><main><h1 class="Headline">Want to read more?</h1><p class="Dip">Register a few details to discover how the Times reported the armistice</p><a class="SubscriptionBlock-btn SubscriptionBlock-btn-primary" href="https://join.thetimes.co.uk/?pc=regacc&amp;gotoUrl=https://www.thetimes.co.uk/article/armistice-end-first-world-war-ww1-psnx52d2k">Register now</a><span>No credit card required</span></main></div></div><div class="style_scrollContainer_3iO"></div></div></div></component_content>
+    <component_context></component_context>
+  </authorised>
+
+  <unauthorised>
+    <component_styles></component_styles>
+    <component_scripts>
+      <component_script>
+        <url>//extras.thetimes.co.uk/web/public/takeover-pages/armistice-end-first-world-war-ww1/index.js?v=2018-11-06T10:58:32.056Z</url>
+        <name>armistice-end-first-world-war-ww1-script</name>
+      </component_script>
+    </component_scripts>
+    <component_content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><style>.Container.Container--blank{background-color:#F5EFEC;}@charset "UTF-8";
+/**
+ * Breakpoints
+ */
+@font-face {
+  font-family: 'GillSansW01-MediumItalic';
+  src: url("https://fonts.timesdev.tools/fonts/GillSansW01-MediumItalic.eot");
+  src: local("\263A"), url("https://fonts.timesdev.tools/fonts/GillSansW01-MediumItalic.eot?iefix") format("eot"), url("https://fonts.timesdev.tools/fonts/GillSansW01-MediumItalic.woff") format("woff"), url("https://fonts.timesdev.tools/fonts/GillSansW01-MediumItalic.ttf") format("truetype"), url("https://fonts.timesdev.tools/fonts/GillSansW01-MediumItalic.svg#webfont") format("svg"), local("\263A");
+  font-weight: normal;
+  font-style: normal; }
+
+.MainContainer {
+  overflow: initial; }
+
+#ad-header {
+  display: none !important; }
+
+.ArticleMarketing {
+  display: none !important; }
+
+.Article-marketingBlock {
+  display: none !important; }
+
+.MarketingBanner {
+  display: none !important; }
+
+.ConversionPopup {
+  display: none !important; }
+
+.OnboardingBanner {
+  display: none !important; }
+
+.__evo-launchpad {
+  display: none !important; }
+
+.style_scrollContainer_3iO {
+  height: calc(100vh - 4rem);
+  overflow: hidden; }
+  @media screen and (min-width: 1180px) {
+    .style_scrollContainer_3iO {
+      overflow: auto;
+      -webkit-overflow-scrolling: touch; } }
+
+.style_Armistice_10r {
+  width: 100%;
+  background-color: #212529; }
+  .style_Armistice_10r .style_content_22i {
+    display: flex; }
+
+body {
+  overflow: hidden;
+  position: fixed;
+  width: 100%; }
+  @media screen and (min-width: 1024px) {
+    body.armistice--loading .style_scrollContainer_3iO {
+      overflow: hidden; } }
+@charset "UTF-8";
+/**
+ * Breakpoints
+ */
+@font-face {
+  font-family: 'GillSansW01-MediumItalic';
+  src: url("https://fonts.timesdev.tools/fonts/GillSansW01-MediumItalic.eot");
+  src: local("\263A"), url("https://fonts.timesdev.tools/fonts/GillSansW01-MediumItalic.eot?iefix") format("eot"), url("https://fonts.timesdev.tools/fonts/GillSansW01-MediumItalic.woff") format("woff"), url("https://fonts.timesdev.tools/fonts/GillSansW01-MediumItalic.ttf") format("truetype"), url("https://fonts.timesdev.tools/fonts/GillSansW01-MediumItalic.svg#webfont") format("svg"), local("\263A");
+  font-weight: normal;
+  font-style: normal; }
+
+.MainContainer {
+  overflow: initial; }
+
+#ad-header {
+  display: none !important; }
+
+.ArticleMarketing {
+  display: none !important; }
+
+.Article-marketingBlock {
+  display: none !important; }
+
+.MarketingBanner {
+  display: none !important; }
+
+.ConversionPopup {
+  display: none !important; }
+
+.OnboardingBanner {
+  display: none !important; }
+
+.__evo-launchpad {
+  display: none !important; }
+
+.style_LoggedOut_I4z {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  opacity: 0;
+  z-index: 10;
+  transition: opacity 1s ease;
+  pointer-events: none;
+  padding: 1rem; }
+  .style_LoggedOut_I4z.style_entering_3lg {
+    display: flex; }
+  .style_LoggedOut_I4z.style_entered_1Ls {
+    opacity: 1;
+    display: flex;
+    pointer-events: initial; }
+  .style_LoggedOut_I4z .style_overlay_Afd {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(33, 37, 41, 0.9); }
+  .style_LoggedOut_I4z .style_container_3hj {
+    position: relative;
+    background: #fff;
+    width: 100%;
+    max-width: 56rem;
+    z-index: 11;
+    margin: auto; }
+    .style_LoggedOut_I4z .style_container_3hj aside {
+      padding-top: 56.25%;
+      background-size: cover;
+      background-position: top center; }
+    .style_LoggedOut_I4z .style_container_3hj main {
+      padding: 3rem 2rem;
+      text-align: center; }
+      @media screen and (min-width: 520px) {
+        .style_LoggedOut_I4z .style_container_3hj main {
+          padding: 3rem 4rem; } }
+      @media screen and (min-width: 768px) {
+        .style_LoggedOut_I4z .style_container_3hj main {
+          padding: 3rem 9rem; } }
+      .style_LoggedOut_I4z .style_container_3hj main h1 {
+        font-size: 2.6rem;
+        margin: 0 0 0.5rem; }
+      .style_LoggedOut_I4z .style_container_3hj main p {
+        font-size: 1.8rem;
+        line-height: 1.4em;
+        margin: 0 0 1.5rem; }
+      .style_LoggedOut_I4z .style_container_3hj main a {
+        background-color: #00aaad;
+        color: #fff;
+        font-size: 1.8rem;
+        padding: 1.2rem 1rem 0.8rem;
+        font-family: 'GillSansMTStd-Medium';
+        display: block;
+        max-width: 17rem;
+        margin: 0 auto 1.5rem; }
+      .style_LoggedOut_I4z .style_container_3hj main span {
+        color: #666;
+        font-family: 'GillSansMTStd-Medium';
+        font-size: 1.4rem; }
+</style><div id="times-armistice-app" class="times-armistice-app times-armistice-app__unauthenticated"><div class="style_LoggedOut_I4z "><div class="style_overlay_Afd"></div><div class="style_container_3hj"><aside style="background-image:url(https://nuk-tnl-editorial-prod-staticassets.s3.amazonaws.com/public/takeover-pages/armistice-end-first-world-war-ww1/assets/657b0d9de809854aec5684d9161a0f08.jpg)"></aside><main><h1 class="Headline">Want to read more?</h1><p class="Dip">Register a few details to discover how the Times reported the armistice</p><a class="SubscriptionBlock-btn SubscriptionBlock-btn-primary" href="https://join.thetimes.co.uk/?pc=regacc&amp;gotoUrl=https://www.thetimes.co.uk/article/armistice-end-first-world-war-ww1-psnx52d2k">Register now</a><span>No credit card required</span></main></div></div><div class="style_scrollContainer_3iO"></div></div></div></component_content>
+    <component_context></component_context>
+  </unauthorised>
+
+</entry>

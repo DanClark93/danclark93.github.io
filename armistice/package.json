@@ -1,0 +1,73 @@
+{
+  "name": "times-armistice",
+  "version": "0.0.1",
+  "description": "Armistice takeover page",
+  "main": "index.js",
+  "scripts": {
+    "dist": "npm run build",
+    "build": "webpack --env=prod; node ./scripts/build.js",
+    "start": "./scripts/start",
+    "test": "./scripts/test",
+    "deploy": "node ./scripts/deploy.js"
+  },
+  "author": "Dan Clark <daniel.clark@the-times.co.uk>",
+  "contributors": "",
+  "repository": "",
+  "bugs": "",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "babel-eslint": "^10.0.1",
+    "intersection-observer": "^0.5.1",
+    "prop-types": "^15.6.2",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "react-ga": "^2.5.3",
+    "react-image": "^1.5.1",
+    "react-progressbar": "^15.4.1",
+    "react-transition-group": "^2.5.0",
+    "stickyfilljs": "^2.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "autoprefixer": "^9.3.0",
+    "babel-jest": "^23.6.0",
+    "babel-loader": "^8.0.4",
+    "chalk": "^2.4.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^1.0.0",
+    "custom-hash": "^0.9.0",
+    "enzyme": "^3.7.0",
+    "eslint": "^5.7.0",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "file-loader": "^2.0.0",
+    "fs-extra": "^7.0.0",
+    "isomorphic-style-loader": "^4.0.0",
+    "jest": "^23.6.0",
+    "minimist": "^1.2.0",
+    "node-sass": "^4.9.4",
+    "react-addons-test-utils": "^15.6.2",
+    "react-hot-loader": "3.0.0-beta.6",
+    "react-test-renderer": "^16.6.0",
+    "sass-loader": "^7.1.0",
+    "static-site-generator-webpack-plugin": "^3.4.1",
+    "style-loader": "^0.23.1",
+    "times-api-publisher": "git+ssh://git@github.com/times/times-api-publisher.git",
+    "uglify-js": "^3.4.9",
+    "webpack": "^4.22.0",
+    "webpack-bundle-analyzer": "^3.0.3",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
+      "\\.(css|less|scss)$": "<rootDir>/__mocks__/styleMock.js"
+    }
+  }
+}

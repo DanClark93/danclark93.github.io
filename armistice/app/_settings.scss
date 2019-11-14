@@ -1,0 +1,62 @@
+/**
+ * Breakpoints
+ */
+$breakpoint-small: 520px;
+$breakpoint-mobile: 768px;
+$breakpoint-tablet: 1024px;
+$breakpoint-desktop: 1180px;
+$breakpoint-xlarge: 1320px;
+
+@mixin font-smoothing {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: 'GillSansW01-MediumItalic';
+  src: url('https://fonts.timesdev.tools/fonts/GillSansW01-MediumItalic.eot');
+  src: local('☺'),
+    url('https://fonts.timesdev.tools/fonts/GillSansW01-MediumItalic.eot?iefix')
+      format('eot'),
+    url('https://fonts.timesdev.tools/fonts/GillSansW01-MediumItalic.woff')
+      format('woff'),
+    url('https://fonts.timesdev.tools/fonts/GillSansW01-MediumItalic.ttf')
+      format('truetype'),
+    url('https://fonts.timesdev.tools/fonts/GillSansW01-MediumItalic.svg#webfont')
+      format('svg'),
+    local('☺');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:global(.MainContainer) {
+  overflow: initial;
+}
+
+:global(#ad-header) {
+  display: none !important;
+}
+
+:global(.ArticleMarketing) {
+  display: none !important;
+}
+
+:global(.Article-marketingBlock) {
+  display: none !important;
+}
+
+:global(.MarketingBanner) {
+  display: none !important;
+}
+
+:global(.ConversionPopup) {
+  display: none !important;
+}
+
+:global(.OnboardingBanner) {
+  display: none !important;
+}
+
+:global(.__evo-launchpad) {
+  display: none !important;
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<entry xmlns="http://www.w3.org/2005/Atom" xmlns:age="http://purl.org/atompub/age/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:cpi="http://xmlns.new.co.uk/types" xmlns:web="http://thetimes.co.uk">
+
+  <id>http://s3-eu-west-1.amazonaws.com/nuk-tnl-editorial-prod-staticassets/public/takeover-pages/armistice-end-first-world-war-ww1/1fcd5b24-cd5b-44cb-b62e-cb3831de2578</id>
+
+  <identifier>1fcd5b24-cd5b-44cb-b62e-cb3831de2578</identifier>
+
+  <updated>2018-11-06T10:58:32.038Z</updated>
+  <published>2018-11-03T00:00:00.000Z</published>
+
+  <category term="article"/>
+  
+  <author>
+    <name>The Times</name>
+  </author>
+
+  <title>Reporting the armistice: How The Times covered the end of the First World War</title>
+
+  <summary>Explore an annotated version of the newspaper published on November 12, 1918 — the first to celebrate the signing of the agreement</summary>
+
+  <cpi:shorttitle>How The Times covered the end of the First World War</cpi:shorttitle>
+  <cpi:strapline>Explore an annotated version of the newspaper published on November 12, 1918 — the first to celebrate the signing of the agreement</cpi:strapline>
+  <cpi:subtitle>Explore an annotated version of the newspaper published on November 12, 1918 — the first to celebrate the signing of the agreement</cpi:subtitle>
+  <cpi:standfirst>Explore an annotated version of the newspaper published on November 12, 1918 — the first to celebrate the signing of the agreement</cpi:standfirst>
+  <cpi:label></cpi:label>
+  <cpi:publication>times</cpi:publication>
+
+  <cpi:slug>armistice-end-first-world-war-ww1</cpi:slug>
+
+  <cpi:leadassetid>463b0c7a-067e-4aa4-9f52-e0b7d37de353</cpi:leadassetid>
+
+  <cpi:times_templateid>blank-default</cpi:times_templateid>
+  <version>1</version>
+  <region/>
+
+  <cpi:comments>
+    <disabled>true</disabled>
+    <premoderated>true</premoderated>
+  </cpi:comments>
+
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml"><media type="server-component" id="54f09341-54f2-419e-b57b-770192571ed8" /></div>
+  </content>
+  <age:expires/>
+  <cpi:status>WebFlow/Published</cpi:status>
+  <link rel="related" href="http://s3-eu-west-1.amazonaws.com/nuk-tnl-editorial-prod-staticassets/public/takeover-pages/armistice-end-first-world-war-ww1/54f09341-54f2-419e-b57b-770192571ed8" type="application/atom+xml; type=entry"></link>
+  <link rel="related" href="https://nu-hub-prod.s3.amazonaws.com/methode/times/prod/web/assets/463b0c7a-067e-4aa4-9f52-e0b7d37de353" type="application/atom+xml; type=entry"></link>
+</entry>
