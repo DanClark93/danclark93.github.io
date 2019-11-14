@@ -1,0 +1,107 @@
+@import '../settings.scss';
+
+.Aside {
+  width: 100%;
+  margin-bottom: 8.9rem;
+
+  @media only screen and (max-width: $breakpoint-mobile) {
+    margin-bottom: 4.3rem;
+  }
+
+  h2 {
+    padding-bottom: 0.8rem;
+    color: #333333;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    font-family: 'TimesModern-Bold';
+    font-weight: normal;
+  }
+
+  .ChartTitle {
+    padding-bottom: 0.2rem !important;
+  }
+
+  h3 {
+    color: #7c7c7c;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    font-family: 'TimesDigital-Regular';
+    font-weight: normal;
+    width: 85%;
+    margin: auto;
+  }
+
+  .ChartStand {
+    padding-bottom: 2rem;
+  }
+
+  svg {
+    width: 100%;
+    height: 40rem;
+    margin: auto;
+    overflow: visible;
+
+    :global(.annotation-line) {
+      stroke: #000000;
+      stroke-width: 1;
+    }
+
+    :global(.label) {
+      font-size: 1.8rem;
+      font-family: GillSansMTStd-Medium, GillSansW01-Medium;
+      color: #000000;
+    }
+  }
+
+  p {
+    margin-top: 0 !important;
+    font-family: 'TimesDigital-Regular';
+    color: #7c7c7c;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    width: 85%;
+    margin: auto;
+  }
+
+  // .BigNumbersContainer {
+  //   display: flex;
+  //   flex-direction: row;
+  //   justify-content: space-around;
+  //   padding-bottom: 6.9rem;
+
+  //   > div {
+  //     width: 30%;
+
+  //     h4 {
+  //       font-size: 2rem;
+  //       line-height: 2.3rem;
+  //       color: #000000;
+  //       font-family: GillSansMTStd-Medium, GillSansW01-Medium;
+  //       font-weight: normal;
+  //     }
+
+  //     .BigNumber {
+  //       font-size: 6.8rem;
+  //       line-height: 7.3rem;
+  //       font-family: 'TimesModern-Bold';
+  //       font-weight: normal;
+  //     }
+
+  //     h5 {
+  //       font-size: 1.6rem;
+  //       color: #333333;
+  //       line-height: 1.9rem;
+  //       font-family: GillSansMTStd-Medium, GillSansW01-Medium;
+  //       padding-bottom: 1.6rem;
+  //     }
+
+  //     p {
+  //       margin-top: 0 !important;
+  //       color: #333333;
+  //       font-family: 'TimesDigital-Regular';
+  //       font-size: 1.4rem;
+  //       line-height: 1.8rem;
+  //     }
+  //   }
+  // }
+}

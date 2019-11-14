@@ -1,0 +1,32 @@
+@import '../settings.scss';
+.SelectDropdown {
+  width: 40rem;
+  margin: auto;
+  padding-bottom: 5rem;
+  text-align: left;
+  font-family: GillSansMTStd-Medium, GillSansW01-Medium;
+  font-size: 1.5rem;
+
+  @media only screen and (max-width: $breakpoint-mobile) {
+    width: 80%;
+    padding-bottom: 3rem;
+  }
+
+  :global(.css-d8oujb) {
+    background-color: unset !important;
+  }
+
+  :global(.css-1ep9fjw) {
+    color: #2c79ad;
+  }
+
+  :global(.css-15k3avv) {
+    color: #333;
+  }
+
+  :global(.css-xp4uvy),
+  :global(.css-1492t68),
+  :global(.css-142w6gm) {
+    top: 55%;
+  }
+}
