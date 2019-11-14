@@ -1,0 +1,120 @@
+year,Won.or.not.,entity,tconst,titleType,originalTitle,isAdult,endYear,runtimeMinutes,genres
+1968,FALSE,Closely Observed Trains,NA,NA,NA,NA,NA,NA,NA
+1968,TRUE,The Graduate,NA,NA,NA,NA,NA,NA,NA
+1968,FALSE,Oliver!,tt0063385,movie,Oliver!,0,\N,153,"Drama,Family,Musical"
+1968,FALSE,2001: A Space Odyssey,tt0062622,movie,2001: A Space Odyssey,0,\N,149,"Adventure,Sci-Fi"
+1969,TRUE,Midnight Cowboy,tt0064665,movie,Midnight Cowboy,0,\N,113,Drama
+1969,FALSE,Oh! What A Lovely War,NA,NA,NA,NA,NA,NA,NA
+1969,FALSE,Women in Love,tt0066579,movie,Women in Love,0,\N,131,"Drama,Romance"
+1969,FALSE,Z,tt0065234,movie,Z,0,\N,127,"Crime,Drama,History"
+1970,FALSE,Kes,NA,NA,NA,NA,NA,NA,NA
+1970,FALSE,M*A*S*H,NA,NA,NA,NA,NA,NA,NA
+1970,FALSE,Ryan's Daughter,tt0066319,movie,Ryan's Daughter,0,\N,206,"Drama,Romance"
+1970,TRUE,Butch Cassidy and The Sundance Kid,NA,NA,NA,NA,NA,NA,NA
+1971,FALSE,Death in Venice,tt0067445,movie,Morte a Venezia,0,\N,130,Drama
+1971,FALSE,The Go-Between,tt0067144,movie,The Go-Between,0,\N,116,"Drama,Romance"
+1971,TRUE,"Sunday, Bloody Sunday",NA,NA,NA,NA,NA,NA,NA
+1971,FALSE,Taking Off,tt0067820,movie,Taking Off,0,\N,93,"Comedy,Drama,Music"
+1972,TRUE,Cabaret,tt0068327,movie,Cabaret,0,\N,124,"Drama,Musical"
+1972,FALSE,A Clockwork Orange,NA,NA,NA,NA,NA,NA,NA
+1972,FALSE,The French Connection,NA,NA,NA,NA,NA,NA,NA
+1972,FALSE,The Last Picture Show,NA,NA,NA,NA,NA,NA,NA
+1973,TRUE,Day For Night,NA,NA,NA,NA,NA,NA,NA
+1973,FALSE,The Day Of The Jackhal,NA,NA,NA,NA,NA,NA,NA
+1973,FALSE,The Discreet Charm of The Bourgeoisie,NA,NA,NA,NA,NA,NA,NA
+1973,FALSE,Don't Look Now,tt0069995,movie,Don't Look Now,0,\N,110,"Drama,Horror,Thriller"
+1974,FALSE,Chinatown,tt0071315,movie,Chinatown,0,\N,130,"Drama,Mystery,Thriller"
+1974,TRUE,Lacombe Lucien,NA,NA,NA,NA,NA,NA,NA
+1974,FALSE,The Last Detail,NA,NA,NA,NA,NA,NA,NA
+1974,FALSE,Murder On The Orient Express,NA,NA,NA,NA,NA,NA,NA
+1975,TRUE,Alice Doesn't Live Here Anymore,NA,NA,NA,NA,NA,NA,NA
+1975,FALSE,Barry Lyndon,tt0072684,movie,Barry Lyndon,0,\N,185,"Adventure,Drama,History"
+1975,FALSE,Dog Day Afternoon,tt0072890,movie,Dog Day Afternoon,0,\N,125,"Biography,Crime,Drama"
+1975,FALSE,Jaws,tt0073195,movie,Jaws,0,\N,124,"Adventure,Drama,Thriller"
+1976,FALSE,All the President's Men,tt0074119,movie,All the President's Men,0,\N,138,"Biography,Drama,History"
+1976,FALSE,Bugsy Malone,tt0074256,movie,Bugsy Malone,0,\N,93,"Comedy,Crime,Family"
+1976,TRUE,One Flew Over The Cuckoo's Nest,NA,NA,NA,NA,NA,NA,NA
+1976,FALSE,Taxi Driver,tt0075314,movie,Taxi Driver,0,\N,114,"Crime,Drama"
+1977,TRUE,Annie Hall,tt0075686,movie,Annie Hall,0,\N,93,"Comedy,Romance"
+1977,FALSE,A Bridge Too Far,tt0075784,movie,A Bridge Too Far,0,\N,175,"Drama,History,War"
+1977,FALSE,Network,NA,NA,NA,NA,NA,NA,NA
+1977,FALSE,Rocky,NA,NA,NA,NA,NA,NA,NA
+1978,FALSE,Close Encounters of the Third Kind,NA,NA,NA,NA,NA,NA,NA
+1978,FALSE,Midnight Express,tt0077928,movie,Midnight Express,0,\N,121,"Biography,Crime,Drama"
+1978,FALSE,Star Wars,NA,NA,NA,NA,NA,NA,NA
+1978,TRUE,Julia,NA,NA,NA,NA,NA,NA,NA
+1979,FALSE,Apocalypse Now,tt0078788,movie,Apocalypse Now,0,\N,147,"Drama,War"
+1979,FALSE,The China Syndrome,tt0078966,movie,The China Syndrome,0,\N,122,"Drama,Thriller"
+1979,FALSE,The Deer Hunter,NA,NA,NA,NA,NA,NA,NA
+1979,TRUE,Manhattan,tt0079522,movie,Manhattan,0,\N,96,"Comedy,Drama,Romance"
+1980,FALSE,Being There,NA,NA,NA,NA,NA,NA,NA
+1980,FALSE,Kagemusha,tt0080979,movie,Kagemusha,0,\N,180,"Drama,History,War"
+1980,FALSE,Kramer Vs Kramer,NA,NA,NA,NA,NA,NA,NA
+1980,TRUE,The Elephant Man,tt0080678,movie,The Elephant Man,0,\N,124,"Biography,Drama"
+1981,FALSE,Atlantic City,NA,NA,NA,NA,NA,NA,NA
+1981,FALSE,Gregory's Girl,NA,NA,NA,NA,NA,NA,NA
+1981,FALSE,Raiders of the Lost Ark,tt0082971,movie,Raiders of the Lost Ark,0,\N,115,"Action,Adventure"
+1981,FALSE,The French Lieutenant's Woman,tt0082416,movie,The French Lieutenant's Woman,0,\N,124,"Drama,Romance"
+1981,TRUE,Chariots of Fire,tt0082158,movie,Chariots of Fire,0,\N,125,"Biography,Drama,Sport"
+1982,FALSE,E.T.: The Extra-Terrestrial,NA,NA,NA,NA,NA,NA,NA
+1982,FALSE,Missing,tt0084335,movie,Missing,0,\N,122,"Biography,Drama,History"
+1982,FALSE,On Golden Pond,NA,NA,NA,NA,NA,NA,NA
+1982,TRUE,Gandhi,tt0083987,movie,Gandhi,0,\N,191,"Biography,Drama,History"
+1983,FALSE,Heat and Dust,tt0084058,movie,Heat and Dust,0,\N,133,"Drama,Romance"
+1983,FALSE,Local Hero,tt0085859,movie,Local Hero,0,\N,111,"Comedy,Drama"
+1983,FALSE,Tootsie,NA,NA,NA,NA,NA,NA,NA
+1983,TRUE,Educating Rita,tt0085478,movie,Educating Rita,0,\N,110,"Comedy,Drama"
+1984,FALSE,A Private Function,tt0089838,movie,A Private Function,0,\N,92,Comedy
+1984,FALSE,"Paris, Texas",tt0087884,movie,"Paris, Texas",0,\N,145,Drama
+1984,FALSE,The Dresser,NA,NA,NA,NA,NA,NA,NA
+1984,TRUE,The Killing Fields,tt0087553,movie,The Killing Fields,0,\N,141,"Biography,Drama,History"
+1985,FALSE,A Passage to India,NA,NA,NA,NA,NA,NA,NA
+1985,FALSE,Amadeus,NA,NA,NA,NA,NA,NA,NA
+1985,FALSE,Back To The Future,NA,NA,NA,NA,NA,NA,NA
+1985,FALSE,Witness,tt0090329,movie,Witness,0,\N,112,"Crime,Drama,Romance"
+1985,TRUE,The Purple Rose of Cairo,tt0089853,movie,The Purple Rose of Cairo,0,\N,82,"Comedy,Fantasy,Romance"
+1986,FALSE,Hannah And Her Sisters,NA,NA,NA,NA,NA,NA,NA
+1986,FALSE,Mona Lisa,tt0091538,movie,Mona Lisa,0,\N,104,"Crime,Drama,Romance"
+1986,FALSE,The Mission,tt0091530,movie,The Mission,0,\N,125,"Adventure,Drama,History"
+1986,TRUE,A Room With A View,NA,NA,NA,NA,NA,NA,NA
+1987,FALSE,Cry Freedom,tt0092804,movie,Cry Freedom,0,\N,157,"Biography,Drama,History"
+1987,FALSE,Hope and Glory,tt0093209,movie,Hope and Glory,0,\N,113,"Comedy,Drama,Romance"
+1987,FALSE,Radio Days,tt0093818,movie,Radio Days,0,\N,88,Comedy
+1987,TRUE,Jean De Florette,NA,NA,NA,NA,NA,NA,NA
+1988,FALSE,A Fish Called Wanda,tt0095159,movie,A Fish Called Wanda,0,\N,108,"Comedy,Crime"
+1988,FALSE,Babette's Feast,NA,NA,NA,NA,NA,NA,NA
+1988,FALSE,"Goodbye, Children",NA,NA,NA,NA,NA,NA,NA
+1988,TRUE,The Last Emperor,NA,NA,NA,NA,NA,NA,NA
+1989,FALSE,My Left Foot,tt0097937,movie,My Left Foot: The Story of Christy Brown,0,\N,103,"Biography,Drama"
+1989,FALSE,Shirley Valentine,tt0098319,movie,Shirley Valentine,0,\N,108,"Comedy,Drama,Romance"
+1989,FALSE,When Harry Met Sally,NA,NA,NA,NA,NA,NA,NA
+1989,TRUE,Dead Poets Society,tt0097165,movie,Dead Poets Society,0,\N,128,"Comedy,Drama"
+1990,FALSE,Crimes and Misdemeanors,NA,NA,NA,NA,NA,NA,NA
+1990,FALSE,Driving Miss Daisy,NA,NA,NA,NA,NA,NA,NA
+1990,FALSE,Pretty Woman,tt0100405,movie,Pretty Woman,0,\N,119,"Comedy,Romance"
+1990,TRUE,Goodfellas,tt0099685,movie,Goodfellas,0,\N,146,"Crime,Drama"
+1991,FALSE,Dances With Wolves,NA,NA,NA,NA,NA,NA,NA
+1991,FALSE,The Silence Of The Lambs,NA,NA,NA,NA,NA,NA,NA
+1991,FALSE,Thelma and Louise,NA,NA,NA,NA,NA,NA,NA
+1991,TRUE,The Commitments,tt0101605,movie,The Commitments,0,\N,118,"Comedy,Drama,Music"
+1992,FALSE,Strictly Ballroom,tt0105488,movie,Strictly Ballroom,0,\N,94,"Comedy,Drama,Music"
+1992,FALSE,The Crying Game,tt0104036,movie,The Crying Game,0,\N,112,"Crime,Drama,Romance"
+1992,FALSE,The Player,tt0105151,movie,The Player,0,\N,124,"Comedy,Crime,Drama"
+1992,FALSE,Unforgiven,tt0105695,movie,Unforgiven,0,\N,130,"Drama,Western"
+1992,TRUE,Howards End,tt0104454,movie,Howards End,0,\N,142,"Drama,Romance"
+1993,FALSE,Shadowlands,tt0108101,movie,Shadowlands,0,\N,131,"Biography,Drama,Romance"
+1993,FALSE,The Piano,tt0107822,movie,The Piano,0,\N,121,"Drama,Music,Romance"
+1993,FALSE,The Remains of the Day,tt0107943,movie,The Remains of the Day,0,\N,134,"Drama,Romance"
+1993,TRUE,Schindler's List,tt0108052,movie,Schindler's List,0,\N,195,"Biography,Drama,History"
+1994,FALSE,Forrest Gump,tt0109830,movie,Forrest Gump,0,\N,142,"Drama,Romance"
+1994,FALSE,Pulp Fiction,tt0110912,movie,Pulp Fiction,0,\N,154,"Crime,Drama"
+1994,FALSE,Quiz Show,tt0110932,movie,Quiz Show,0,\N,133,"Biography,Drama,History"
+1994,TRUE,Four Weddings and a Funeral,tt0109831,movie,Four Weddings and a Funeral,0,\N,117,"Comedy,Drama,Romance"
+1995,FALSE,Babe,tt0112431,movie,Babe,0,\N,91,"Comedy,Drama,Family"
+1995,FALSE,The Madness of King George,NA,NA,NA,NA,NA,NA,NA
+1995,FALSE,The Usual Suspects,tt0114814,movie,The Usual Suspects,0,\N,106,"Crime,Mystery,Thriller"
+1995,TRUE,Sense and Sensibility,tt0114388,movie,Sense and Sensibility,0,\N,136,"Drama,Romance"
+1996,FALSE,Fargo,tt0116282,movie,Fargo,0,\N,98,"Crime,Drama,Thriller"
+1996,FALSE,Secrets & Lies,tt0117589,movie,Secrets & Lies,0,\N,136,Drama
+1996,FALSE,Shine,tt0117631,movie,Shine,0,\N,105,"Biography,Drama,Music"
+1996,TRUE,The English Patient,tt0116209,movie,The English Patient,0,\N,162,"Drama,Romance,War"

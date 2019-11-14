@@ -1,0 +1,5442 @@
+[
+  {
+    "items": [
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019041200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 56
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019041300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 59
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019041400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 97
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019041500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 84
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019041600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 44
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019041700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 47
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019041800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 68
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019041900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 42
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019042000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 48
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019042100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 40
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019042200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 46
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019042300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 43
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019042400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 316
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019042500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 104
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019042600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 58
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019042700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 50
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019042800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 37
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019042900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 41
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019043000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 36
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019050100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 149
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019050200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 145
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019050300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 74
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019050400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 48
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019050500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 46
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019050600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 41
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019050700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 80
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019050800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 63
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019050900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 112
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019051000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 99
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019051100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 59
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019051200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 49
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019051300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 74
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019051400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 90
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019051500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 63
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019051600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 74
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019051700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 85
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019051800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 58
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019051900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 41
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019052000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 81
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019052100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 71
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019052200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 80
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019052300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 92
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019052400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 401
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019052500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 278
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019052600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 703
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019052700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 358
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019052800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 576
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019052900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 436
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019053000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 2743
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019053100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 8128
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019060100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1006
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019060200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 887
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019060300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 657
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019060400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 720
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019060500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1033
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019060600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 598
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019060700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 859
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019060800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 622
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019060900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 678
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Mark_Harper",
+        "granularity": "daily",
+        "timestamp": "2019061000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 7811
+      }
+    ]
+  },
+  {
+    "items": [
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019041200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 3109
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019041300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 2671
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019041400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 4187
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019041500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 3000
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019041600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 2233
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019041700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 2171
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019041800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1913
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019041900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1792
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019042000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1756
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019042100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1979
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019042200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 2504
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019042300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 3673
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019042400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 2455
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019042500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 2103
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019042600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1936
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019042700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 2817
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019042800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1894
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019042900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1728
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019043000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1853
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019050100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1847
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019050200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 2188
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019050300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 3116
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019050400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1972
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019050500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1941
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019050600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1958
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019050700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1932
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019050800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 2000
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019050900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1770
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019051000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1752
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019051100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 2007
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019051200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1812
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019051300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1559
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019051400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1663
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019051500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1566
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019051600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 7862
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019051700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 10372
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019051800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 7013
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019051900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 4533
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019052000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 4084
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019052100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 3875
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019052200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 5194
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019052300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 7809
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019052400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 76990
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019052500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 50836
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019052600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 34983
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019052700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 19829
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019052800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 14557
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019052900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 25043
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019053000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 14747
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019053100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 10472
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019060100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 17830
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019060200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 14247
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019060300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 19907
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019060400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 17557
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019060500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 12129
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019060600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 14792
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019060700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 15309
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019060800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 13527
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019060900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 17463
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Boris_Johnson",
+        "granularity": "daily",
+        "timestamp": "2019061000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 24447
+      }
+    ]
+  },
+  {
+    "items": [
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019041200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 619
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019041300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 665
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019041400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 661
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019041500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 555
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019041600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 411
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019041700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 420
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019041800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 348
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019041900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 288
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019042000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 350
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019042100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 318
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019042200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 355
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019042300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 345
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019042400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 565
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019042500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 425
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019042600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 396
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019042700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 305
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019042800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 241
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019042900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 301
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019043000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 261
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019050100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 437
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019050200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 524
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019050300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 425
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019050400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 343
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019050500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 322
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019050600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 298
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019050700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 280
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019050800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 2552
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019050900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 990
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019051000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 619
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019051100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 439
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019051200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 356
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019051300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 408
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019051400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 427
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019051500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 328
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019051600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 725
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019051700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 788
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019051800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 454
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019051900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 423
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019052000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 406
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019052100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1196
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019052200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 23343
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019052300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 19687
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019052400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 12298
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019052500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 6606
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019052600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 11534
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019052700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 3147
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019052800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 2499
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019052900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 2055
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019053000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1514
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019053100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1188
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019060100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1006
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019060200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 7691
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019060300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1522
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019060400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1638
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019060500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 2232
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019060600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1340
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019060700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 2040
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019060800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 2884
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019060900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 3134
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Andrea_Leadsom",
+        "granularity": "daily",
+        "timestamp": "2019061000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 7544
+      }
+    ]
+  },
+  {
+    "items": [
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019041200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 549
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019041300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1208
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019041400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 580
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019041500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 417
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019041600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 391
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019041700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 316
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019041800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 247
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019041900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 213
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019042000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 240
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019042100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 220
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019042200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 264
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019042300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 333
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019042400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 278
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019042500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 260
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019042600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 544
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019042700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 366
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019042800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 615
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019042900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 291
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019043000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 248
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019050100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 502
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019050200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 505
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019050300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 462
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019050400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 281
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019050500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 553
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019050600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 442
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019050700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 369
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019050800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 346
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019050900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 15612
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019051000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 4184
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019051100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1460
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019051200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1216
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019051300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 580
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019051400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 571
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019051500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1026
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019051600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 2101
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019051700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 2565
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019051800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 996
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019051900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1201
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019052000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 7486
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019052100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 3811
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019052200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1829
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019052300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1771
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019052400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 24506
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019052500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 43909
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019052600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 35675
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019052700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 8835
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019052800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 9877
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019052900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 7233
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019053000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 25220
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019053100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 8831
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019060100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 4434
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019060200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 3598
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019060300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 9274
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019060400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 3185
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019060500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 4787
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019060600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 3123
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019060700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 11495
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019060800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 4474
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019060900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 30215
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Esther_McVey",
+        "granularity": "daily",
+        "timestamp": "2019061000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 66746
+      }
+    ]
+  },
+  {
+    "items": [
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019041200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 354
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019041300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 326
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019041400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 352
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019041500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 535
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019041600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 344
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019041700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 250
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019041800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 299
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019041900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 211
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019042000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 157
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019042100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 225
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019042200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 175
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019042300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 230
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019042400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 341
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019042500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1097
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019042600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 397
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019042700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 230
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019042800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 313
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019042900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 270
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019043000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 232
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019050100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 307
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019050200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 487
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019050300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 315
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019050400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1431
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019050500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 441
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019050600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 446
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019050700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 285
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019050800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 304
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019050900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 283
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019051000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 456
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019051100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 484
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019051200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 386
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019051300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 311
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019051400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 254
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019051500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 249
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019051600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 395
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019051700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 705
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019051800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 820
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019051900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 297
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019052000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1700
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019052100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 519
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019052200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 571
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019052300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 735
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019052400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 3052
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019052500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 15183
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019052600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 6839
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019052700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 2041
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019052800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 3072
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019052900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 7183
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019053000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 2091
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019053100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1271
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019060100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 854
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019060200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1175
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019060300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1125
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019060400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1500
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019060500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1899
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019060600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1787
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019060700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1459
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019060800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1055
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019060900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 997
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Matt_Hancock",
+        "granularity": "daily",
+        "timestamp": "2019061000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 8850
+      }
+    ]
+  },
+  {
+    "items": [
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019041200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 915
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019041300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 731
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019041400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 788
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019041500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 811
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019041600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 726
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019041700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 2164
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019041800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1271
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019041900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 852
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019042000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 696
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019042100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 774
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019042200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 662
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019042300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 797
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019042400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 870
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019042500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 942
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019042600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 848
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019042700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 690
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019042800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 680
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019042900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 659
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019043000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 824
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019050100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1078
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019050200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 946
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019050300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1077
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019050400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1365
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019050500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 858
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019050600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 868
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019050700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 980
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019050800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 645
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019050900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 689
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019051000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 662
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019051100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 598
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019051200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 569
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019051300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1024
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019051400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 819
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019051500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 574
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019051600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1022
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019051700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1386
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019051800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 777
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019051900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 909
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019052000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 689
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019052100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 662
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019052200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1684
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019052300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1689
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019052400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 8844
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019052500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 6233
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019052600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 22871
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019052700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 10207
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019052800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 7554
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019052900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 8089
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019053000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 3442
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019053100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 3722
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019060100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 3532
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019060200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 3546
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019060300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 2811
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019060400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 5887
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019060500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 4223
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019060600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 3967
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019060700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 5970
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019060800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 38817
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019060900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 36997
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Michael_Gove",
+        "granularity": "daily",
+        "timestamp": "2019061000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 32163
+      }
+    ]
+  },
+  {
+    "items": [
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019041200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 968
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019041300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 658
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019041400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 646
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019041500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 5176
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019041600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1597
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019041700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1050
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019041800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1027
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019041900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 772
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019042000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 988
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019042100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1562
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019042200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1580
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019042300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1009
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019042400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 943
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019042500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1011
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019042600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1027
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019042700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 690
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019042800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 683
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019042900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1133
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019043000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1266
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019050100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1057
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019050200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1181
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019050300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1530
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019050400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 3598
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019050500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1239
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019050600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1751
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019050700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1170
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019050800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1480
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019050900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 886
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019051000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 758
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019051100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 690
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019051200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 697
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019051300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1043
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019051400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1193
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019051500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 883
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019051600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1046
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019051700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1154
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019051800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 728
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019051900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 679
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019052000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 812
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019052100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 662
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019052200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1149
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019052300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1834
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019052400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 14668
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019052500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 11028
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019052600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 9375
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019052700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 4429
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019052800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 9357
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019052900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 5821
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019053000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 2955
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019053100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 2547
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019060100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 2686
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019060200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 2601
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019060300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 5609
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019060400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 6812
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019060500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 6549
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019060600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 3816
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019060700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 3468
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019060800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 3734
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019060900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 8966
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Jeremy_Hunt",
+        "granularity": "daily",
+        "timestamp": "2019061000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 34183
+      }
+    ]
+  },
+  {
+    "items": [
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019041200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1960
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019041300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1976
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019041400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1687
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019041500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 20462
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019041600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 4764
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019041700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 2154
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019041800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1962
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019041900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 2143
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019042000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1571
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019042100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1386
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019042200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1114
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019042300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1029
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019042400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1115
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019042500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1201
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019042600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 962
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019042700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 850
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019042800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 853
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019042900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1256
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019043000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 738
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019050100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1096
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019050200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1179
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019050300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1498
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019050400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1883
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019050500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1216
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019050600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 997
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019050700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 834
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019050800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 805
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019050900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 860
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019051000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1382
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019051100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1448
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019051200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1023
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019051300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1080
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019051400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 962
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019051500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1702
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019051600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1668
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019051700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1557
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019051800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1463
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019051900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1070
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019052000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 2135
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019052100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1151
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019052200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1871
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019052300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1911
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019052400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 14777
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019052500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 8624
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019052600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 5376
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019052700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 16372
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019052800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 10567
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019052900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 5857
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019053000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 4079
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019053100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 3865
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019060100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 5854
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019060200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 7315
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019060300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 3775
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019060400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 3936
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019060500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 2822
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019060600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 2119
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019060700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 3122
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019060800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 4247
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019060900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 13354
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Sajid_Javid",
+        "granularity": "daily",
+        "timestamp": "2019061000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 12639
+      }
+    ]
+  },
+  {
+    "items": [
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019041200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 514
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019041300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1622
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019041400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1129
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019041500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 682
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019041600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 512
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019041700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1463
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019041800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 822
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019041900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 445
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019042000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 386
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019042100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 510
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019042200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 498
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019042300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1113
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019042400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 573
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019042500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1766
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019042600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1076
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019042700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 790
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019042800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 743
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019042900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 549
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019043000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 427
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019050100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 22303
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019050200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 21908
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019050300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 15760
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019050400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 5356
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019050500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 16845
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019050600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 8482
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019050700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 3805
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019050800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 2374
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019050900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 2758
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019051000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 2039
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019051100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1397
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019051200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1561
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019051300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1378
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019051400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1258
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019051500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1105
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019051600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 2526
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019051700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 3853
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019051800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 2422
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019051900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 10717
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019052000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 4448
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019052100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 2197
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019052200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 2355
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019052300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 2486
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019052400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 31774
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019052500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 75523
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019052600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 43149
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019052700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 19049
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019052800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 43028
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019052900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 35782
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019053000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 47047
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019053100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 30461
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019060100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 20792
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019060200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 13995
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019060300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 11966
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019060400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 8214
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019060500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 14394
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019060600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 9968
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019060700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 11919
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019060800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 13215
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019060900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 11660
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rory_Stewart",
+        "granularity": "daily",
+        "timestamp": "2019061000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 27311
+      }
+    ]
+  },
+  {
+    "items": [
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019041200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 567
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019041300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 493
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019041400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 574
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019041500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 573
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019041600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 449
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019041700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 403
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019041800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 351
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019041900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 318
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019042000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 260
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019042100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 261
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019042200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 340
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019042300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 422
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019042400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 348
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019042500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 333
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019042600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 297
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019042700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 223
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019042800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 229
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019042900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 276
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019043000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 258
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019050100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 535
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019050200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 464
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019050300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 495
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019050400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 2137
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019050500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 2556
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019050600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1826
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019050700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 851
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019050800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 664
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019050900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 764
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019051000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 860
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019051100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 827
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019051200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 591
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019051300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 496
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019051400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 531
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019051500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 607
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019051600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1664
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019051700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 2155
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019051800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1835
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019051900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1328
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019052000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1123
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019052100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1215
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019052200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 1953
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019052300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 2523
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019052400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 39859
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019052500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 21136
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019052600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 53230
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019052700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 12619
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019052800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 9007
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019052900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 14510
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019053000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 9640
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019053100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 6677
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019060100",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 3741
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019060200",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 3447
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019060300",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 2588
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019060400",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 2542
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019060500",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 3031
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019060600",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 4495
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019060700",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 4038
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019060800",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 6885
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019060900",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 4126
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Dominic_Raab",
+        "granularity": "daily",
+        "timestamp": "2019061000",
+        "access": "all-access",
+        "agent": "all-agents",
+        "views": 20573
+      }
+    ]
+  }
+]

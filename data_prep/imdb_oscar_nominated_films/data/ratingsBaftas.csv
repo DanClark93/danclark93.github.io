@@ -1,0 +1,105 @@
+entity,year,Won.or.not.,tconst,titleType,originalTitle,isAdult,endYear,runtimeMinutes,genres,averageRating,numVotes
+12 Years A Slave,2013,TRUE,NA,NA,NA,NA,NA,NA,NA,NA,NA
+A Beautiful Mind,2001,FALSE,tt0268978,movie,A Beautiful Mind,0,\N,135,"Biography,Drama",8.2,754927
+Almost Famous,2000,FALSE,tt0181875,movie,Almost Famous,0,\N,122,"Adventure,Comedy,Drama",7.9,232129
+Am_lie,2001,FALSE,NA,NA,NA,NA,NA,NA,NA,NA,NA
+American Beauty,1999,TRUE,tt0169547,movie,American Beauty,0,\N,122,Drama,8.4,973073
+American Gangster,2007,FALSE,NA,NA,NA,NA,NA,NA,NA,NA,NA
+American Hustle,2013,FALSE,tt1800241,movie,American Hustle,0,\N,138,"Crime,Drama",7.2,412036
+An Education,2009,FALSE,tt1174732,movie,An Education,0,\N,100,Drama,7.3,122062
+Argo,2012,TRUE,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Arrival,2016,FALSE,tt2543164,movie,Arrival,0,\N,116,"Drama,Mystery,Sci-Fi",7.9,493906
+Atonement,2007,TRUE,tt0783233,movie,Atonement,0,\N,123,"Drama,Mystery,Romance",7.8,224563
+Avatar,2009,FALSE,tt0499549,movie,Avatar,0,\N,162,"Action,Adventure,Fantasy",7.8,1023040
+Babel,2006,FALSE,tt0449467,movie,Babel,0,\N,143,Drama,7.5,270314
+Big Fish,2003,FALSE,tt0319061,movie,Big Fish,0,\N,125,"Adventure,Drama,Fantasy",8,385508
+Billy Elliot,2000,FALSE,tt0249462,movie,Billy Elliot,0,\N,110,"Drama,Music,Romance",7.7,112309
+Birdman,2014,FALSE,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Black Swan,2010,FALSE,tt0947798,movie,Black Swan,0,\N,108,"Drama,Thriller",8,637163
+Boyhood,2014,TRUE,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Bridge Of Spies,2015,FALSE,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Brokeback Mountain,2005,TRUE,tt0388795,movie,Brokeback Mountain,0,\N,134,"Drama,Romance",7.7,294826
+Call Me by Your Name,2017,FALSE,tt5726616,movie,Call Me by Your Name,0,\N,132,"Drama,Romance",7.9,142396
+Capote,2005,FALSE,tt0379725,movie,Capote,0,\N,114,"Biography,Crime,Drama",7.4,115401
+Captain Phillips,2013,FALSE,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Carol,2015,FALSE,tt2402927,movie,Carol,0,\N,118,"Drama,Romance",7.2,97622
+Chicago,2002,FALSE,tt0299658,movie,Chicago,0,\N,113,"Comedy,Crime,Musical",7.2,198072
+Cold Mountain,2003,FALSE,tt0159365,movie,Cold Mountain,0,\N,154,"Adventure,Drama,History",7.2,130598
+Crash,2005,FALSE,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Crouching Tiger, Hidden Dragon (Wo Hu Cang Long)",2000,FALSE,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Darkest Hour,2017,FALSE,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Drive,2011,FALSE,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Dunkirk,2017,FALSE,NA,NA,NA,NA,NA,NA,NA,NA,NA
+East is East,1999,FALSE,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Elizabeth,1998,FALSE,tt0127536,movie,Elizabeth,0,\N,124,"Biography,Drama,History",7.5,84589
+Erin Brockovich,2000,FALSE,tt0195685,movie,Erin Brockovich,0,\N,131,"Biography,Drama",7.3,155994
+Eternal Sunshine Of The Spotless Mind,2004,FALSE,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Finding Neverland,2004,FALSE,tt0308644,movie,Finding Neverland,0,\N,106,"Biography,Drama,Family",7.7,189461
+Frost/Nixon,2008,FALSE,tt0870111,movie,Frost/Nixon,0,\N,122,"Biography,Drama,History",7.7,96214
+Gangs Of New York,2002,FALSE,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Gladiator,2000,TRUE,tt0172495,movie,Gladiator,0,\N,155,"Action,Adventure,Drama",8.5,1184730
+"Good Night, And Good Luck",2005,FALSE,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Gravity,2013,FALSE,tt1454468,movie,Gravity,0,\N,91,"Drama,Sci-Fi,Thriller",7.7,694116
+"I, Daniel Blake",2016,FALSE,tt5168192,movie,"I, Daniel Blake",0,\N,100,Drama,7.9,42419
+Inception,2010,FALSE,tt1375666,movie,Inception,0,\N,148,"Action,Adventure,Sci-Fi",8.8,1794814
+LA Confidential,1997,FALSE,NA,NA,NA,NA,NA,NA,NA,NA,NA
+La La Land,2016,TRUE,tt3783958,movie,La La Land,0,\N,128,"Comedy,Drama,Music",8,417311
+Les Mis_rables,2012,FALSE,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life Of Pi,2012,FALSE,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Lincoln,2012,FALSE,tt0443272,movie,Lincoln,0,\N,150,"Biography,Drama,History",7.4,225532
+Little Miss Sunshine,2006,FALSE,tt0449059,movie,Little Miss Sunshine,0,\N,101,"Comedy,Drama",7.8,403652
+Lost In Translation,2003,FALSE,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Manchester by the Sea,2016,FALSE,tt4034228,movie,Manchester by the Sea,0,\N,137,Drama,7.8,207021
+Master And Commander: The Far Side Of The World,2003,FALSE,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Milk,2008,FALSE,tt1284591,movie,Süt,0,\N,102,Drama,6.7,2561
+Moonlight,2016,FALSE,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Moulin Rouge,2001,FALSE,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Mrs Brown,1997,FALSE,tt0119280,movie,Mrs Brown,0,\N,101,"Biography,Drama,History",7.3,12357
+No Coutry For Old Men,2007,FALSE,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Philomena,2013,FALSE,tt2431286,movie,Philomena,0,\N,98,"Biography,Drama",7.6,87648
+Precious: Based On The Novel Push By Sapphire,2009,FALSE,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Saving Private Ryan,1998,FALSE,tt0120815,movie,Saving Private Ryan,0,\N,169,"Drama,War",8.6,1082100
+Shakespeare in Love,1998,TRUE,tt0138097,movie,Shakespeare in Love,0,\N,123,"Comedy,Drama,History",7.1,198546
+Shrek,2001,FALSE,tt0126029,movie,Shrek,0,\N,90,"Adventure,Animation,Comedy",7.9,549488
+Slumdog Millionaire,2008,TRUE,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Spotlight,2015,FALSE,tt1895587,movie,Spotlight,0,\N,129,"Crime,Drama,History",8.1,352754
+The Artist,2011,TRUE,tt1825978,movie,The Artist,0,\N,100,Thriller,8,5
+The Artist,2011,TRUE,tt1655442,movie,The Artist,0,\N,100,"Comedy,Drama,Romance",7.9,214778
+The Aviator,2004,TRUE,tt0338751,movie,The Aviator,0,\N,170,"Biography,Drama",7.5,302949
+The Big Short,2015,FALSE,tt1596363,movie,The Big Short,0,\N,130,"Biography,Comedy,Drama",7.8,299466
+The Constant Gardener,2005,FALSE,tt0387131,movie,The Constant Gardener,0,\N,129,"Drama,Mystery,Romance",7.4,123933
+The Curious Case Of Benjamin Button,2008,FALSE,NA,NA,NA,NA,NA,NA,NA,NA,NA
+The Departed,2006,FALSE,tt0407887,movie,The Departed,0,\N,151,"Crime,Drama,Thriller",8.5,1052439
+The Descendants,2011,FALSE,NA,NA,NA,NA,NA,NA,NA,NA,NA
+The End of the Affair,1999,FALSE,tt0172396,movie,The End of the Affair,0,\N,102,"Drama,Romance",7.1,19811
+The Full Monty,1997,TRUE,tt0119164,movie,The Full Monty,0,\N,91,"Comedy,Drama",7.2,91493
+The Grand Budapest Hotel,2014,FALSE,tt2278388,movie,The Grand Budapest Hotel,0,\N,99,"Adventure,Comedy,Drama",8.1,619060
+The Help,2011,FALSE,tt1454029,movie,The Help,0,\N,146,Drama,8.1,385197
+The Hours,2002,FALSE,tt0274558,movie,The Hours,0,\N,110,"Drama,Romance",7.6,115079
+The Hurt Locker,2009,TRUE,NA,NA,NA,NA,NA,NA,NA,NA,NA
+The Imitation Game,2014,FALSE,tt2084970,movie,The Imitation Game,0,\N,114,"Biography,Drama,Thriller",8,604136
+The King's Speech,2010,TRUE,NA,NA,NA,NA,NA,NA,NA,NA,NA
+The Last King of Scotland,2006,FALSE,tt0455590,movie,The Last King of Scotland,0,\N,123,"Biography,Drama,History",7.7,163429
+The Lives of Others,2007,FALSE,NA,NA,NA,NA,NA,NA,NA,NA,NA
+The Lord Of The Rings: The Fellowship Of The Ring,2001,TRUE,NA,NA,NA,NA,NA,NA,NA,NA,NA
+The Lord Of The Rings: The Return Of The King,2003,TRUE,NA,NA,NA,NA,NA,NA,NA,NA,NA
+The Lord Of The Rings: The Two Towers,2002,FALSE,NA,NA,NA,NA,NA,NA,NA,NA,NA
+The Motorcycle Diaries (Diarios De Motocicleta),2004,FALSE,NA,NA,NA,NA,NA,NA,NA,NA,NA
+The Pianist,2002,TRUE,tt0253474,movie,The Pianist,0,\N,150,"Biography,Drama,Music",8.5,624841
+The Queen,2006,TRUE,tt0436697,movie,The Queen,0,\N,103,"Biography,Drama,History",7.3,96641
+The Reader,2008,FALSE,tt0976051,movie,The Reader,0,\N,124,"Drama,Romance",7.6,215082
+The Revenant,2015,TRUE,tt1663202,movie,The Revenant,0,\N,156,"Action,Adventure,Biography",8,599958
+The Shape of Water,2017,FALSE,tt5580390,movie,The Shape of Water,0,\N,123,"Adventure,Drama,Fantasy",7.4,285813
+The Sixth Sense,1999,FALSE,tt0167404,movie,The Sixth Sense,0,\N,107,"Drama,Mystery,Thriller",8.1,829968
+The Social Network,2010,FALSE,tt1285016,movie,The Social Network,0,\N,120,"Biography,Drama",7.7,559929
+The Talented Mr Ripley,1999,FALSE,NA,NA,NA,NA,NA,NA,NA,NA,NA
+The Theory Of Everything,2014,FALSE,NA,NA,NA,NA,NA,NA,NA,NA,NA
+The Truman show,1998,FALSE,NA,NA,NA,NA,NA,NA,NA,NA,NA
+There WIll Be Blood,2007,FALSE,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Three Billboards Outside Ebbing, Missouri",2017,TRUE,tt5027774,movie,"Three Billboards Outside Ebbing, Missouri",0,\N,115,"Comedy,Crime,Drama",8.2,318294
+Tinker Tailor Soldier Spy,2011,FALSE,tt1340800,movie,Tinker Tailor Soldier Spy,0,\N,122,"Drama,Mystery,Thriller",7.1,172712
+Titanic,1997,FALSE,tt0120338,movie,Titanic,0,\N,194,"Drama,Romance",7.8,934172
+True Grit,2010,FALSE,tt1403865,movie,True Grit,0,\N,110,"Adventure,Drama,Western",7.6,279017
+Up In The Air,2009,FALSE,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Vera Drake,2004,FALSE,tt0383694,movie,Vera Drake,0,\N,125,"Crime,Drama",7.7,22224
+Zero Dark Thirty,2012,FALSE,tt1790885,movie,Zero Dark Thirty,0,\N,157,"Drama,Thriller",7.4,246461
